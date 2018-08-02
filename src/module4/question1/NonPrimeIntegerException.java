@@ -1,4 +1,4 @@
-package module4;
+package module4.question1;
 
 public class NonPrimeIntegerException extends Exception{
 

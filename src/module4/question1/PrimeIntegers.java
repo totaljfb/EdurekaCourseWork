@@ -1,4 +1,4 @@
-package module4;
+package module4.question1;
 
 import java.util.ArrayList;
 
@@ -10,5 +10,4 @@ public class PrimeIntegers {
 	public ArrayList<Integer> getAl_int() {
 		return al_int;
 	}
-	
 }

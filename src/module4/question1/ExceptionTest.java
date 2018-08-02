@@ -1,4 +1,4 @@
-package module4;
+package module4.question1;
 
 import java.util.ArrayList;
 //simple test for prime number validation 
@@ -58,9 +58,8 @@ public class ExceptionTest {
 		if(!validate_prime_int(pi1.getAl_int())){
 			try {
 				throw new NonPrimeIntegerException("There is at least one non "
-						+ "prime number in the list");
+						+ "prime number in the list: " + pi1.getAl_int().toString());
 			} catch (NonPrimeIntegerException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}

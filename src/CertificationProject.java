@@ -78,7 +78,8 @@ public class CertificationProject {
 				} catch (SQLException e) {
 					e.printStackTrace();
 				}
-			}	
+			}
+			sc.close();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
