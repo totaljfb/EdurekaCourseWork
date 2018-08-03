@@ -1,7 +1,7 @@
-2018-08-02 17:01:56 INFO  TestNestedException:9 - Entering main method: 
-2018-08-02 17:01:56 DEBUG TestNestedException:25 - A debug level message is here.
-2018-08-02 17:01:56 ERROR TestNestedException:16 - Cannot divide arrays of different lengths.
+2018-08-02 22:34:26 INFO  TestNestedException:9 - Entering main method: 
+2018-08-02 22:34:26 DEBUG TestNestedException:25 - A debug level message is here.
+2018-08-02 22:34:26 ERROR TestNestedException:16 - Cannot divide arrays of different lengths.
 module4.question2.log4j1.ArrayDataException: Cannot divide arrays of different lengths.
 	at module4.question2.log4j1.TestNestedException.divideArrays(TestNestedException.java:27)
 	at module4.question2.log4j1.TestNestedException.main(TestNestedException.java:14)
-2018-08-02 17:01:56 INFO  TestNestedException:20 - Exiting main method
+2018-08-02 22:34:26 INFO  TestNestedException:20 - Exiting main method
