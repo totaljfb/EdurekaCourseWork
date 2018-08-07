@@ -21,7 +21,7 @@ public class GenericUtils {
 		
 	}
 	
-	//simple test, generics does not support primitive types
+	//simple test, generics do not support primitive types
 	public static void main(String[] args) {
 		
 		String[] a = {"a","b","c"};
