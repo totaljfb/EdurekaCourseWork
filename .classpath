@@ -9,5 +9,6 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/Jason.Zhang/EdurekaCourseWork/libs/log4j-1.2.17.jar" sourcepath="C:/Users/Jason.Zhang/.sourceattacher/log4j-1.2.17-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Jason.Zhang/EdurekaCourseWork/libs/log4j-api-2.11.1.jar" sourcepath="C:/Users/Jason.Zhang/.sourceattacher/log4j-api-2.11.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-java-8.0.11.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
