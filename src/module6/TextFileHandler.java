@@ -15,7 +15,7 @@ import java.util.StringTokenizer;
 
 public final class TextFileHandler {
 	
-	private static String file_name = "resources/countries.csv";
+	private static String file_name = "resources/module6/countries.csv";
 	private static HashMap<String, String> table = new HashMap<String, String>();
 	private static HashMap<String, String> getTable(){
 		
@@ -68,7 +68,7 @@ public final class TextFileHandler {
 		try(BufferedWriter bw = new BufferedWriter(new FileWriter(new File(newFilename)));){
 			for(String key: table.keySet()) {
 				if(key.startsWith(String.valueOf(countryNameBeginningWith))){
-					bw.write(key + " " + table.get(key) + "\n");
+					bw.write(key + ", " + table.get(key) + "\n");
 				}
 			}
 			bw.close();
@@ -82,7 +82,7 @@ public final class TextFileHandler {
 			//and the capitals as values to a table
 			//this method must be executed before other methods
 			TextFileHandler.loadFile();
-			String new_write_file = "resources/countries_s.csv";;
+			String new_write_file = "resources/module6/countries_s.csv";;
 			char header = 'S';
 			TextFileHandler.writeToFile(new_write_file, header);
 		}
