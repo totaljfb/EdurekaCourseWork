@@ -1,9 +1,11 @@
 package module6;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -11,16 +13,15 @@ import java.util.Map;
 import java.util.Set;
 import java.util.StringTokenizer;
 
-import jdk.nashorn.internal.parser.Token;
-
 public final class TextFileHandler {
 	
-	private static String file_name = "resources/countries_s.csv";
+	private static String file_name = "resources/countries.csv";
 	private static HashMap<String, String> table = new HashMap<String, String>();
 	private static HashMap<String, String> getTable(){
+		
+		
 		return table;
 	}
-	
 	public static void loadFile() throws FileNotFoundException, IOException{
 		try(BufferedReader br = new BufferedReader(new FileReader(new File(file_name)));){
 			String line = null;
@@ -62,20 +63,32 @@ public final class TextFileHandler {
 		}
 	}
 	
-	public static void writeToFile(String newFilename, char countryNameBeginningWith) {
-		
+	public static void writeToFile(String newFilename, char countryNameBeginningWith) 
+			throws FileNotFoundException, IOException {
+		try(BufferedWriter bw = new BufferedWriter(new FileWriter(new File(newFilename)));){
+			for(String key: table.keySet()) {
+				if(key.startsWith(String.valueOf(countryNameBeginningWith))){
+					bw.write(key + " " + table.get(key) + "\n");
+				}
+			}
+			bw.close();
+			System.out.println("Write to file completed.");
+		}
 	}
 	
 	public static void main(String[] args) {
 		try {
-			TextFileHandler.printFirst10Lines();
+			//loadFile method will store the countries as keys
+			//and the capitals as values to a table
+			//this method must be executed before other methods
 			TextFileHandler.loadFile();
-			TextFileHandler.dumpTable(TextFileHandler.getTable());
+			String new_write_file = "resources/countries_s.csv";;
+			char header = 'S';
+			TextFileHandler.writeToFile(new_write_file, header);
 		}
 		catch(IOException e) {
 			e.printStackTrace();
 		}
-		
 	}
 
 }
