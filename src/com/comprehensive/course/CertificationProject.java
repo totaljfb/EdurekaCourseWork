@@ -1,4 +1,4 @@
-package java.comprehensive.course;
+package com.comprehensive.course;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -20,7 +20,7 @@ public class CertificationProject {
 	private final static String jdbc_driver = "com.mysql.cj.jdbc.Driver";
 	private final static String db_url = "jdbc:mysql://localhost:3306/test?autoReconnect=true&useSSL=false";	
 	private final static String user = "root";
-	private final static String psw = "root";
+	private final static String psw = "336299";
 	private static Statement statement;
 	
 	public static void CreateTable() {
@@ -90,13 +90,13 @@ public class CertificationProject {
 					}
 				}
 				System.out.println(sql);
-				sc.close();
 				try {
 					statement.executeUpdate(sql);
 				} catch (SQLException e) {
 					e.printStackTrace();
 				}
-			}	
+			}
+			sc.close();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
@@ -135,9 +135,9 @@ public class CertificationProject {
 	}
 	public static void main(String[] args) throws SQLException, IOException {
 		//call create table function, create a table in local MySQL database	
-		CreateTable();
+		//CreateTable();
 		//call load movie function, import txt file to the table
-		LoadMovie();
+		//LoadMovie();
 		
 		//use the prepared statement to conduct sql query
 		String q1 = "select directors, title from test.movie where title = ?";

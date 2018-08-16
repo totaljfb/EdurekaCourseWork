@@ -16,7 +16,7 @@ public class DepressedDaniel {
 			System.out.println("");
 			System.out.println("[1]. Show the current ArrayList");
 			System.out.println("[2]. Add an element to the ArrayList");
-			System.out.println("[3]. Show the element which you want to remove");
+			System.out.println("[3]. Remove an element from the list");
 			System.out.println("[4]. Show duplicate elements in ArrayList");
 			System.out.println("[5]. Quit Program");
 			op = sc.nextInt();
@@ -39,7 +39,7 @@ public class DepressedDaniel {
 						System.out.println("Element with index of " + op +" has been removed from the ArrayList");
 					} 
 					catch(Exception e) {
-						System.out.println(e.getMessage());
+						e.printStackTrace();
 					}					
 					break;
 			case 4: Map<Integer, Integer> counts = new HashMap<Integer, Integer>();
