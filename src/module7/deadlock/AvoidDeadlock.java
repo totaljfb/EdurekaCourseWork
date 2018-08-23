@@ -4,6 +4,8 @@ import org.apache.log4j.Logger;
 
 public final class AvoidDeadlock {
 	
+	//to avoid the deadlock, swap the locked objects in the synchronized block
+	//in one of the Object class
 	private static Object lock1 = new Object();
 	private static Object lock2 = new Object();
 	private static Logger logger = Logger.getLogger(AvoidDeadlock.class.getName());
