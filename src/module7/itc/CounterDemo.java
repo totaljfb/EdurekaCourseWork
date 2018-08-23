@@ -1,5 +1,7 @@
 package module7.itc;
 
+import java.util.Random;
+
 import org.apache.log4j.Logger;
 
 public class CounterDemo {
@@ -22,12 +24,34 @@ public class CounterDemo {
 			ConsoleOutput co = new ConsoleOutput(n);
 			Thread t1 = new Thread(new Task1(co));
 			Thread t2 = new Thread(new Task2(co));
-			t1.start();
-			t2.start();
+			//use random boolean value to start thread t1 and t2 randomly
+			Random r = new Random();
+			//use wait() and notify() methods to print numbers thread by thread
+			if(r.nextBoolean()) {
+				t1.start();
+				try {
+					synchronized (co) {
+						co.wait();
+					}
+				}catch(InterruptedException e) {
+					e.printStackTrace();
+				}
+				t2.start();
+			}
+			else{
+				t2.start();
+				try {
+					synchronized (co) {
+						co.wait();
+					}
+				}catch(InterruptedException e) {
+					e.printStackTrace();
+				}
+				t1.start();
+			}
 			t1.join();
 			t2.join();
 			logger.debug("Exiting programme...");
-			
 		}
 		else {
 			System.out.println("Usage: java CounterDemo [n]");
@@ -52,7 +76,10 @@ class Task1 implements Runnable{
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-	}	
+		synchronized(co) {
+			co.notify();
+			}
+		}
 }
 
 class Task2 implements Runnable{
@@ -69,5 +96,8 @@ class Task2 implements Runnable{
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-	}	
+		synchronized(co) {
+			co.notify();
+			}
+		}
 }
