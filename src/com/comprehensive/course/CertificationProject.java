@@ -11,10 +11,9 @@ import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.ArrayList;
 import java.util.Scanner;
 
-import com.mysql.cj.util.StringUtils;
+import com.sun.xml.internal.ws.util.StringUtils;
 
 public class CertificationProject {
 	private final static String jdbc_driver = "com.mysql.cj.jdbc.Driver";
@@ -25,27 +24,27 @@ public class CertificationProject {
 	
 	public static void CreateTable() {
 		try {
-		Class.forName(jdbc_driver);
-		try {
-			Connection conn = DriverManager.getConnection(db_url,user,psw);
-			String create_table = "CREATE TABLE Movie " +
-								  "(title VARCHAR(255) not NULL, " +
-	                              " title_type VARCHAR(255), " + 
-	                              " directors VARCHAR(255), " + 
-	                              " imdb_rating DOUBLE, " + 
-	                              " runtime DOUBLE, " +
-	                              " year INT, " +
-	                              " genres VARCHAR(255), " +
-	                              " votes INT," +
-	                              " top250 VARCHAR(255), " +
-	                              " must_see_1001 VARCHAR(255), " +
-	                              " url VARCHAR(255))"; 
-
-			Statement stmt = conn.createStatement();
-			stmt.executeUpdate(create_table);
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
+			Class.forName(jdbc_driver);
+			try {
+				Connection conn = DriverManager.getConnection(db_url,user,psw);
+				String create_table = "CREATE TABLE Movie " +
+									  "(title VARCHAR(255) not NULL, " +
+		                              " title_type VARCHAR(255), " + 
+		                              " directors VARCHAR(255), " + 
+		                              " imdb_rating DOUBLE, " + 
+		                              " runtime DOUBLE, " +
+		                              " year INT, " +
+		                              " genres VARCHAR(255), " +
+		                              " votes INT," +
+		                              " top250 VARCHAR(255), " +
+		                              " must_see_1001 VARCHAR(255), " +
+		                              " url VARCHAR(255))"; 
+	
+				Statement stmt = conn.createStatement();
+				stmt.executeUpdate(create_table);
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
 	} catch (ClassNotFoundException e) {
 		e.printStackTrace();
 	}
