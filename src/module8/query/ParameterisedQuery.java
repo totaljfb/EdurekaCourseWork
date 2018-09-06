@@ -9,7 +9,6 @@ import java.sql.SQLException;
 
 public class ParameterisedQuery {
 	
-	private final static String jdbc_driver = "com.mysql.cj.jdbc.Driver";
 	private final static String db_url = "jdbc:mysql://localhost:3306/test?autoReconnect=true&useSSL=false";	
 	private final static String user = "root";
 	private final static String psw = "336299";
@@ -17,37 +16,32 @@ public class ParameterisedQuery {
 	public static void main(String[] args) {
 		if(args.length == 1) {
 			try {
-				Class.forName(jdbc_driver);
-				try {
-					Connection conn = DriverManager.getConnection(db_url,user,psw);
-					//use prepared statement for getting the argument
-					PreparedStatement pstmt = null;
-					String sql = "select id, name from test.student where name like ?";
-					pstmt = conn.prepareStatement(sql);
-					pstmt.setString(1, args[0]);
-					ResultSet rs = pstmt.executeQuery();
-					ResultSetMetaData rsmd = rs.getMetaData();
-					String single_row = "";
-					//display no match if resultset is empty
-					if(!rs.next()) {
-						System.out.println("No matched student found.");
-					//display matched result
-					}else {
-						//move cursor to the front, because !rs.next() has been executed once
-						rs.beforeFirst();
-						System.out.println("Here is the search result:");
-						while(rs.next()){
-							for(int i = 0; i < rsmd.getColumnCount(); i++) {
-								single_row += rs.getString(i+1) + "\t";
-							}
-							System.out.println(single_row);
-							single_row = "";
-							}
-					} 
-				}catch (SQLException e) {
-					e.printStackTrace();
-				}
-			}catch (ClassNotFoundException e) {
+				Connection conn = DriverManager.getConnection(db_url,user,psw);
+				//use prepared statement for getting the argument
+				PreparedStatement pstmt = null;
+				String sql = "select id, name from test.student where name like ?";
+				pstmt = conn.prepareStatement(sql);
+				pstmt.setString(1, args[0]);
+				ResultSet rs = pstmt.executeQuery();
+				ResultSetMetaData rsmd = rs.getMetaData();
+				String single_row = "";
+				//display no match if resultset is empty
+				if(!rs.next()) {
+					System.out.println("No matched student found.");
+				//display matched result
+				}else {
+					//move cursor to the front, because !rs.next() has been executed once
+					rs.beforeFirst();
+					System.out.println("Here is the search result:");
+					while(rs.next()){
+						for(int i = 0; i < rsmd.getColumnCount(); i++) {
+							single_row += rs.getString(i+1) + "\t";
+						}
+						System.out.println(single_row);
+						single_row = "";
+						}
+				} 
+			}catch (SQLException e) {
 				e.printStackTrace();
 			}
 		}else {
