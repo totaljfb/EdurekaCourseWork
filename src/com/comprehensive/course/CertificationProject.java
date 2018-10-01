@@ -13,7 +13,8 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Scanner;
 
-import com.sun.xml.internal.ws.util.StringUtils;
+import com.mysql.cj.util.StringUtils;
+
 
 public class CertificationProject {
 	private final static String jdbc_driver = "com.mysql.cj.jdbc.Driver";
