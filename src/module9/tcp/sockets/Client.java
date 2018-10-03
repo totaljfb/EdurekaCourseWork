@@ -16,7 +16,7 @@ public final class Client {
 	
 	private static final Logger logger = Logger.getLogger(Client.class.getName());
 	//properties file for connections
-	private static final String CONN_FILE = "conn.properties";
+	private static final String CONN_FILE = "resources/conn.properties";
 	
 	public static void main(String[] args) {
 		Properties p = new Properties();

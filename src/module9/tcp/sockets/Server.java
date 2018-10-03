@@ -15,7 +15,7 @@ import org.apache.log4j.Logger;
 public final class Server {
 	private static final Logger logger = Logger.getLogger(Server.class.getName());
 	//properties file for connections
-	private static final String CONN_FILE = "conn.properties";
+	private static final String CONN_FILE = "resources/conn.properties";
 	
 	public static void main(String[] args) {
 		Properties p = new Properties();
@@ -40,7 +40,7 @@ public final class Server {
 			try(PrintWriter out = new PrintWriter(client.getOutputStream(), true);
 					BufferedReader in = new BufferedReader(new InputStreamReader(client.getInputStream()));){
 				//print the message from the client
-				System.out.println("*** Echoing client -> " + in.readLine());
+				logger.debug("*** Echoing client -> " + in.readLine());
 				//send an acknowledgement to the client
 				out.println("Acknowledged.");
 			}
