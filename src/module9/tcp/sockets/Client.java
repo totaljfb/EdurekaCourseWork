@@ -19,6 +19,7 @@ public final class Client {
 	private static final String CONN_FILE = "resources/conn.properties";
 	
 	public static void main(String[] args) {
+		System.out.println("Input 'quit' anytime to quit program.");
 		Properties p = new Properties();
 		//load the property file
 		try {
@@ -35,15 +36,19 @@ public final class Client {
 		try(Socket client = new Socket(host,port);){
 			//open a stream for console input
 			try(BufferedReader input = new BufferedReader(new InputStreamReader(System.in));){
-				logger.debug("Connected to host = " + host + " on port = " + port);
+				logger.debug("Connected to host: " + host + ":" + port);
 				try(PrintWriter out = new PrintWriter(client.getOutputStream(),true);
 						BufferedReader in = new BufferedReader(new InputStreamReader(client.getInputStream()));){
-							System.out.print("Enter text to sent to server -> ");
-							//send a message to the server
-							String str = input.readLine();
-							out.println(str);
-							System.out.println("*** Feedback from server -> " + in.readLine());
-							logger.debug("Exiting client...");
+							String instr = null;
+							do{
+								System.out.print("Enter text to sent to server -> ");
+								//send a message to the server
+								String str = input.readLine();
+								out.println(str);
+								instr = str;
+								System.out.println("*** Feedback from server -> " + in.readLine());
+							}while(!instr.equals("quit"));
+							System.out.println("Program terminated.");
 						}
 			}
 		} catch (UnknownHostException e) {

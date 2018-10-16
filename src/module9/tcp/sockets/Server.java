@@ -1,11 +1,8 @@
 package module9.tcp.sockets;
 
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.Properties;
@@ -19,7 +16,6 @@ public final class Server {
 	
 	public static void main(String[] args) {
 		Properties p = new Properties();
-		
 		try {
 			p.load(new FileInputStream(new File(CONN_FILE)));
 		}catch (IOException e) {
@@ -32,19 +28,13 @@ public final class Server {
 		int port = Integer.valueOf(p.getProperty("tcp_port"));
 		
 		try(ServerSocket server = new ServerSocket(port);){
-			logger.debug("Waiting for connection...");
-			//wait for connection, this is blocking call, i.e waits for new connections
-			Socket client = server.accept();
-			logger.debug("Connected to " + client.toString());
-			//get the client socket I/O stream
-			try(PrintWriter out = new PrintWriter(client.getOutputStream(), true);
-					BufferedReader in = new BufferedReader(new InputStreamReader(client.getInputStream()));){
-				//print the message from the client
-				logger.debug("*** Echoing client -> " + in.readLine());
-				//send an acknowledgement to the client
-				out.println("Acknowledged.");
-			}
-			logger.debug("Exiting server...");
+				while(true) {
+				logger.debug("Waiting for connection...");
+				//wait for connection, this is blocking call, i.e waits for new connections
+				Socket client = server.accept();
+				new Thread(new RequestProcessingThread(client)).start();
+				logger.debug("Connected to " + client.toString());
+				}
 		}catch (IOException e) {
 			logger.error("Lost connection to host due to I/O error.");
 			e.printStackTrace();

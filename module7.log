@@ -1,98 +1,552 @@
-2018-10-02 22:15:01 main       DEBUG Server:35 - Waiting for connection...
-2018-10-02 22:15:06 main       DEBUG Server:38 - Connected to Socket[addr=/127.0.0.1,port=50345,localport=2015]
-2018-10-02 22:17:58 main       ERROR Server:49 - Lost connection to host due to I/O error.
-2018-10-02 22:19:35 main       ERROR Client:52 - Lost connection to host due to I/O error.
-java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at java.net.Socket.<init>(Unknown Source)
-	at java.net.Socket.<init>(Unknown Source)
-	at module9.tcp.sockets.Client.main(Client.java:35)
-2018-10-02 22:19:53 main       ERROR Client:52 - Lost connection to host due to I/O error.
-java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at java.net.Socket.<init>(Unknown Source)
-	at java.net.Socket.<init>(Unknown Source)
-	at module9.tcp.sockets.Client.main(Client.java:35)
-2018-10-02 22:19:57 main       DEBUG Server:35 - Waiting for connection...
-2018-10-02 22:20:05 main       DEBUG Server:38 - Connected to Socket[addr=/127.0.0.1,port=50367,localport=2015]
-2018-10-02 22:20:05 main       DEBUG Client:38 - Connected to host = localhost on port = 2015
-2018-10-02 22:20:08 main       DEBUG Client:46 - Exiting client...
-2018-10-02 22:20:08 main       DEBUG Server:47 - Exiting server...
-2018-10-02 22:20:17 main       ERROR Client:52 - Lost connection to host due to I/O error.
-java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
-	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
-	at java.net.PlainSocketImpl.connect(Unknown Source)
-	at java.net.SocksSocketImpl.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at java.net.Socket.connect(Unknown Source)
-	at java.net.Socket.<init>(Unknown Source)
-	at java.net.Socket.<init>(Unknown Source)
-	at module9.tcp.sockets.Client.main(Client.java:35)
-2018-10-02 22:20:19 main       DEBUG Server:35 - Waiting for connection...
-2018-10-02 22:32:38 main       DEBUG Server:35 - Waiting for connection...
-2018-10-02 22:32:43 main       DEBUG Server:38 - Connected to Socket[addr=/127.0.0.1,port=50436,localport=2015]
-2018-10-02 22:32:43 main       DEBUG Client:38 - Connected to host = localhost on port = 2015
-2018-10-02 22:33:27 main       DEBUG Server:43 - *** Echoing client -> 456
-2018-10-02 22:33:27 main       DEBUG Client:46 - Exiting client...
-2018-10-02 22:33:27 main       DEBUG Server:47 - Exiting server...
-2018-10-02 22:35:55 main       DEBUG Server:35 - Waiting for connection...
-2018-10-02 22:35:58 main       DEBUG Server:38 - Connected to Socket[addr=/127.0.0.1,port=50442,localport=2015]
-2018-10-02 22:35:58 main       DEBUG Client:38 - Connected to host = localhost on port = 2015
-2018-10-02 22:36:10 main       ERROR Server:49 - Lost connection to host due to I/O error.
-2018-10-02 22:36:58 main       DEBUG Server:35 - Waiting for connection...
-2018-10-02 22:37:01 main       DEBUG Server:38 - Connected to Socket[addr=/127.0.0.1,port=50447,localport=2015]
-2018-10-02 22:37:01 main       DEBUG Client:38 - Connected to host = localhost on port = 2015
-2018-10-02 22:37:03 main       DEBUG Server:43 - *** Echoing client -> 456
-2018-10-02 22:37:03 main       DEBUG Client:47 - Exiting client...
-2018-10-02 22:37:03 main       DEBUG Server:47 - Exiting server...
-2018-10-02 22:37:54 main       DEBUG Server:35 - Waiting for connection...
-2018-10-02 22:38:12 main       DEBUG Server:38 - Connected to Socket[addr=/127.0.0.1,port=50449,localport=2015]
-2018-10-02 22:38:12 main       DEBUG Client:38 - Connected to host = localhost on port = 2015
-2018-10-02 22:38:14 main       DEBUG Server:43 - *** Echoing client -> 123
-2018-10-02 22:38:14 main       DEBUG Client:47 - Exiting client...
-2018-10-02 22:38:14 main       DEBUG Server:47 - Exiting server...
-2018-10-02 22:38:25 main       DEBUG Server:35 - Waiting for connection...
-2018-10-02 22:38:28 main       DEBUG Server:38 - Connected to Socket[addr=/127.0.0.1,port=50451,localport=2015]
-2018-10-02 22:38:28 main       DEBUG Client:38 - Connected to host = localhost on port = 2015
-2018-10-02 22:38:35 main       DEBUG Server:43 - *** Echoing client -> 123
-2018-10-02 22:38:35 main       DEBUG Client:47 - Exiting client...
-2018-10-02 22:38:35 main       DEBUG Server:47 - Exiting server...
-2018-10-02 22:39:12 main       DEBUG Server:35 - Waiting for connection...
-2018-10-02 22:39:15 main       DEBUG Server:38 - Connected to Socket[addr=/127.0.0.1,port=50453,localport=2015]
-2018-10-02 22:39:15 main       DEBUG Client:38 - Connected to host = localhost on port = 2015
-2018-10-02 22:39:18 main       DEBUG Client:44 - 123
-2018-10-02 22:39:18 main       DEBUG Server:43 - *** Echoing client -> 123
-2018-10-02 22:39:18 main       DEBUG Client:47 - Exiting client...
-2018-10-02 22:39:18 main       DEBUG Server:47 - Exiting server...
-2018-10-02 22:53:52 main       DEBUG Server:35 - Waiting for connection...
-2018-10-02 22:53:54 main       DEBUG Server:38 - Connected to Socket[addr=/127.0.0.1,port=50610,localport=2015]
-2018-10-02 22:53:54 main       DEBUG Client:38 - Connected to host = localhost on port = 2015
-2018-10-02 22:53:57 main       DEBUG Server:43 - *** Echoing client -> 456
-2018-10-02 22:53:57 main       DEBUG Client:46 - Exiting client...
-2018-10-02 22:53:57 main       DEBUG Server:47 - Exiting server...
-2018-10-02 23:15:51 main       DEBUG Server:35 - Waiting for connection...
-2018-10-02 23:16:03 main       DEBUG Server:38 - Connected to Socket[addr=/127.0.0.1,port=51748,localport=2015]
-2018-10-02 23:16:03 main       DEBUG Client:38 - Connected to host = localhost on port = 2015
-2018-10-02 23:16:14 main       DEBUG Server:43 - *** Echoing client -> 456
-2018-10-02 23:16:14 main       DEBUG Client:46 - Exiting client...
-2018-10-02 23:16:14 main       DEBUG Server:47 - Exiting server...
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - Software Loopback Interface 1
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:25 - InetAddress -> 127.0.0.1
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:25 - InetAddress -> 0:0:0:0:0:0:0:1
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - Microsoft 6to4 Adapter
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - Microsoft Wi-Fi Direct Virtual Adapter #5
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - WAN Miniport (PPTP)
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - Microsoft Wi-Fi Direct Virtual Adapter #4
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:25 - InetAddress -> 192.168.1.3
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:25 - InetAddress -> fe80:0:0:0:5c8c:3f68:9b59:985e%wlan2
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - Microsoft Wi-Fi Direct Virtual Adapter #2
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - Microsoft IP-HTTPS Platform Adapter
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - WAN Miniport (IP)
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - WAN Miniport (Network Monitor)
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - Microsoft Wi-Fi Direct Virtual Adapter
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - WAN Miniport (PPPOE)
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - Microsoft Wi-Fi Direct Virtual Adapter #3
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - Microsoft Teredo Tunneling Adapter
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - Microsoft Kernel Debug Network Adapter
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - WAN Miniport (L2TP)
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - Microsoft Wi-Fi Direct Virtual Adapter #6
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:25 - InetAddress -> fe80:0:0:0:28c9:4193:3bd9:576e%wlan6
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - WAN Miniport (IPv6)
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - WAN Miniport (IKEv2)
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - WAN Miniport (SSTP)
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - Realtek PCIe GBE Family Controller
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - Microsoft Wi-Fi Direct Virtual Adapter #7
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:25 - InetAddress -> fe80:0:0:0:c181:c94f:24d0:fa5d%wlan7
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-WFP Native MAC Layer LightWeight Filter-0000
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-Virtual WiFi Filter Driver-0000
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-Native WiFi Filter Driver-0000
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-QoS Packet Scheduler-0000
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - WAN Miniport (IP)-QoS Packet Scheduler-0000
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - Microsoft Wi-Fi Direct Virtual Adapter #6-WFP Native MAC Layer LightWeight Filter-0000
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - Microsoft Wi-Fi Direct Virtual Adapter #6-Native WiFi Filter Driver-0000
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - Microsoft Wi-Fi Direct Virtual Adapter #6-QoS Packet Scheduler-0000
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - Microsoft Wi-Fi Direct Virtual Adapter #6-WFP 802.3 MAC Layer LightWeight Filter-0000
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - Microsoft Wi-Fi Direct Virtual Adapter #7-WFP Native MAC Layer LightWeight Filter-0000
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - Microsoft Wi-Fi Direct Virtual Adapter #7-Native WiFi Filter Driver-0000
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - Microsoft Wi-Fi Direct Virtual Adapter #7-QoS Packet Scheduler-0000
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:20 - ***Network Interface ***
+2018-10-15 23:09:56 main       INFO  QueryNetworkInterface:21 - Microsoft Wi-Fi Direct Virtual Adapter #7-WFP 802.3 MAC Layer LightWeight Filter-0000
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: Software Loopback Interface 1
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:24 - InetAddress -> 127.0.0.1
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:24 - InetAddress -> 0:0:0:0:0:0:0:1
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft 6to4 Adapter
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #5
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (PPTP)
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #4
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:24 - InetAddress -> 192.168.1.3
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:24 - InetAddress -> fe80:0:0:0:5c8c:3f68:9b59:985e%wlan2
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #2
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft IP-HTTPS Platform Adapter
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IP)
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (Network Monitor)
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (PPPOE)
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #3
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Teredo Tunneling Adapter
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Kernel Debug Network Adapter
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (L2TP)
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:24 - InetAddress -> fe80:0:0:0:28c9:4193:3bd9:576e%wlan6
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IPv6)
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IKEv2)
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (SSTP)
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek PCIe GBE Family Controller
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:24 - InetAddress -> fe80:0:0:0:c181:c94f:24d0:fa5d%wlan7
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-WFP Native MAC Layer LightWeight Filter-0000
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-Virtual WiFi Filter Driver-0000
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-Native WiFi Filter Driver-0000
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-QoS Packet Scheduler-0000
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IP)-QoS Packet Scheduler-0000
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6-WFP Native MAC Layer LightWeight Filter-0000
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6-Native WiFi Filter Driver-0000
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6-QoS Packet Scheduler-0000
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6-WFP 802.3 MAC Layer LightWeight Filter-0000
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7-WFP Native MAC Layer LightWeight Filter-0000
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7-Native WiFi Filter Driver-0000
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7-QoS Packet Scheduler-0000
+2018-10-15 23:16:25 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7-WFP 802.3 MAC Layer LightWeight Filter-0000
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: Software Loopback Interface 1
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:24 - InetAddress -> 127.0.0.1
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:24 - InetAddress -> 0:0:0:0:0:0:0:1
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft 6to4 Adapter
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #5
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (PPTP)
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #4
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:24 - InetAddress -> 192.168.1.3
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:24 - InetAddress -> fe80:0:0:0:5c8c:3f68:9b59:985e%wlan2
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #2
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft IP-HTTPS Platform Adapter
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IP)
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (Network Monitor)
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (PPPOE)
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #3
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Teredo Tunneling Adapter
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Kernel Debug Network Adapter
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (L2TP)
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:24 - InetAddress -> fe80:0:0:0:28c9:4193:3bd9:576e%wlan6
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IPv6)
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IKEv2)
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (SSTP)
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek PCIe GBE Family Controller
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:24 - InetAddress -> fe80:0:0:0:c181:c94f:24d0:fa5d%wlan7
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-WFP Native MAC Layer LightWeight Filter-0000
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-Virtual WiFi Filter Driver-0000
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-Native WiFi Filter Driver-0000
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-QoS Packet Scheduler-0000
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IP)-QoS Packet Scheduler-0000
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6-WFP Native MAC Layer LightWeight Filter-0000
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6-Native WiFi Filter Driver-0000
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6-QoS Packet Scheduler-0000
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6-WFP 802.3 MAC Layer LightWeight Filter-0000
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7-WFP Native MAC Layer LightWeight Filter-0000
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7-Native WiFi Filter Driver-0000
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7-QoS Packet Scheduler-0000
+2018-10-15 23:16:32 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7-WFP 802.3 MAC Layer LightWeight Filter-0000
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: Software Loopback Interface 1
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? true
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:25 - InetAddress -> 127.0.0.1
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:25 - InetAddress -> 0:0:0:0:0:0:0:1
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft 6to4 Adapter
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #5
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (PPTP)
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #4
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? true
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:25 - InetAddress -> 192.168.1.3
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:25 - InetAddress -> fe80:0:0:0:5c8c:3f68:9b59:985e%wlan2
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #2
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft IP-HTTPS Platform Adapter
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IP)
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (Network Monitor)
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (PPPOE)
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #3
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Teredo Tunneling Adapter
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Kernel Debug Network Adapter
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (L2TP)
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:25 - InetAddress -> fe80:0:0:0:28c9:4193:3bd9:576e%wlan6
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IPv6)
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IKEv2)
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (SSTP)
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek PCIe GBE Family Controller
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:25 - InetAddress -> fe80:0:0:0:c181:c94f:24d0:fa5d%wlan7
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-WFP Native MAC Layer LightWeight Filter-0000
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-Virtual WiFi Filter Driver-0000
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-Native WiFi Filter Driver-0000
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-QoS Packet Scheduler-0000
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IP)-QoS Packet Scheduler-0000
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IPv6)-QoS Packet Scheduler-0000
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6-WFP Native MAC Layer LightWeight Filter-0000
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6-Native WiFi Filter Driver-0000
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6-QoS Packet Scheduler-0000
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6-WFP 802.3 MAC Layer LightWeight Filter-0000
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7-WFP Native MAC Layer LightWeight Filter-0000
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7-Native WiFi Filter Driver-0000
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7-QoS Packet Scheduler-0000
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7-WFP 802.3 MAC Layer LightWeight Filter-0000
+2018-10-15 23:17:44 main       INFO  QueryNetworkInterface:21 - Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: Software Loopback Interface 1 Interface is running? true
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:24 - InetAddress -> 127.0.0.1
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:24 - InetAddress -> 0:0:0:0:0:0:0:1
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft 6to4 Adapter Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #5 Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (PPTP) Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #4 Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter Interface is running? true
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:24 - InetAddress -> 192.168.1.3
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:24 - InetAddress -> fe80:0:0:0:5c8c:3f68:9b59:985e%wlan2
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #2 Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft IP-HTTPS Platform Adapter Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IP) Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (Network Monitor) Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (PPPOE) Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #3 Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Teredo Tunneling Adapter Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Kernel Debug Network Adapter Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (L2TP) Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6 Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:24 - InetAddress -> fe80:0:0:0:28c9:4193:3bd9:576e%wlan6
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IPv6) Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IKEv2) Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64 Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (SSTP) Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek PCIe GBE Family Controller Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7 Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:24 - InetAddress -> fe80:0:0:0:c181:c94f:24d0:fa5d%wlan7
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-WFP Native MAC Layer LightWeight Filter-0000 Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-Virtual WiFi Filter Driver-0000 Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-Native WiFi Filter Driver-0000 Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-QoS Packet Scheduler-0000 Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000 Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000 Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IP)-QoS Packet Scheduler-0000 Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000 Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IPv6)-QoS Packet Scheduler-0000 Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000 Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000 Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6-WFP Native MAC Layer LightWeight Filter-0000 Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6-Native WiFi Filter Driver-0000 Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6-QoS Packet Scheduler-0000 Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6-WFP 802.3 MAC Layer LightWeight Filter-0000 Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7-WFP Native MAC Layer LightWeight Filter-0000 Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7-Native WiFi Filter Driver-0000 Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7-QoS Packet Scheduler-0000 Interface is running? false
+2018-10-15 23:18:29 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7-WFP 802.3 MAC Layer LightWeight Filter-0000 Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: Software Loopback Interface 1. Interface is running? true
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:24 - InetAddress -> 127.0.0.1
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:24 - InetAddress -> 0:0:0:0:0:0:0:1
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft 6to4 Adapter. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #5. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (PPTP). Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #4. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter. Interface is running? true
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:24 - InetAddress -> 192.168.1.3
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:24 - InetAddress -> fe80:0:0:0:5c8c:3f68:9b59:985e%wlan2
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #2. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft IP-HTTPS Platform Adapter. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IP). Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (Network Monitor). Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (PPPOE). Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #3. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Teredo Tunneling Adapter. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Kernel Debug Network Adapter. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (L2TP). Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:24 - InetAddress -> fe80:0:0:0:28c9:4193:3bd9:576e%wlan6
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IPv6). Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IKEv2). Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (SSTP). Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek PCIe GBE Family Controller. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:24 - InetAddress -> fe80:0:0:0:c181:c94f:24d0:fa5d%wlan7
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-WFP Native MAC Layer LightWeight Filter-0000. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-Virtual WiFi Filter Driver-0000. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-Native WiFi Filter Driver-0000. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-QoS Packet Scheduler-0000. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IP)-QoS Packet Scheduler-0000. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IPv6)-QoS Packet Scheduler-0000. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6-WFP Native MAC Layer LightWeight Filter-0000. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6-Native WiFi Filter Driver-0000. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6-QoS Packet Scheduler-0000. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6-WFP 802.3 MAC Layer LightWeight Filter-0000. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7-WFP Native MAC Layer LightWeight Filter-0000. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7-Native WiFi Filter Driver-0000. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7-QoS Packet Scheduler-0000. Interface is running? false
+2018-10-15 23:18:52 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7-WFP 802.3 MAC Layer LightWeight Filter-0000. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: Software Loopback Interface 1. Interface is running? true
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:25 - InetAddress -> 127.0.0.1. Support multicast? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:25 - InetAddress -> 0:0:0:0:0:0:0:1. Support multicast? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft 6to4 Adapter. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #5. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (PPTP). Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #4. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter. Interface is running? true
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:25 - InetAddress -> 192.168.1.3. Support multicast? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:25 - InetAddress -> fe80:0:0:0:5c8c:3f68:9b59:985e%wlan2. Support multicast? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #2. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft IP-HTTPS Platform Adapter. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IP). Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (Network Monitor). Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (PPPOE). Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #3. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Teredo Tunneling Adapter. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Kernel Debug Network Adapter. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (L2TP). Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:25 - InetAddress -> fe80:0:0:0:28c9:4193:3bd9:576e%wlan6. Support multicast? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IPv6). Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IKEv2). Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (SSTP). Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek PCIe GBE Family Controller. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:25 - InetAddress -> fe80:0:0:0:c181:c94f:24d0:fa5d%wlan7. Support multicast? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-WFP Native MAC Layer LightWeight Filter-0000. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-Virtual WiFi Filter Driver-0000. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-Native WiFi Filter Driver-0000. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-QoS Packet Scheduler-0000. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IP)-QoS Packet Scheduler-0000. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IPv6)-QoS Packet Scheduler-0000. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6-WFP Native MAC Layer LightWeight Filter-0000. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6-Native WiFi Filter Driver-0000. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6-QoS Packet Scheduler-0000. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6-WFP 802.3 MAC Layer LightWeight Filter-0000. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7-WFP Native MAC Layer LightWeight Filter-0000. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7-Native WiFi Filter Driver-0000. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7-QoS Packet Scheduler-0000. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7-WFP 802.3 MAC Layer LightWeight Filter-0000. Interface is running? false
+2018-10-15 23:21:50 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: Software Loopback Interface 1. Interface is running? Yes
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:25 - InetAddress -> 127.0.0.1. Support multicast? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:25 - InetAddress -> 0:0:0:0:0:0:0:1. Support multicast? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft 6to4 Adapter. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #5. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (PPTP). Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #4. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter. Interface is running? Yes
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:25 - InetAddress -> 192.168.1.3. Support multicast? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:25 - InetAddress -> fe80:0:0:0:5c8c:3f68:9b59:985e%wlan2. Support multicast? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #2. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft IP-HTTPS Platform Adapter. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IP). Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (Network Monitor). Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (PPPOE). Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #3. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Teredo Tunneling Adapter. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Kernel Debug Network Adapter. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (L2TP). Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:25 - InetAddress -> fe80:0:0:0:28c9:4193:3bd9:576e%wlan6. Support multicast? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IPv6). Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IKEv2). Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (SSTP). Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek PCIe GBE Family Controller. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:25 - InetAddress -> fe80:0:0:0:c181:c94f:24d0:fa5d%wlan7. Support multicast? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-WFP Native MAC Layer LightWeight Filter-0000. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-Virtual WiFi Filter Driver-0000. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-Native WiFi Filter Driver-0000. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-QoS Packet Scheduler-0000. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: Realtek RTL8188EE 802.11 bgn Wi-Fi Adapter-WFP 802.3 MAC Layer LightWeight Filter-0000. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IP)-QoS Packet Scheduler-0000. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (IPv6)-QoS Packet Scheduler-0000. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6-WFP Native MAC Layer LightWeight Filter-0000. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6-Native WiFi Filter Driver-0000. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6-QoS Packet Scheduler-0000. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #6-WFP 802.3 MAC Layer LightWeight Filter-0000. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7-WFP Native MAC Layer LightWeight Filter-0000. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7-Native WiFi Filter Driver-0000. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7-QoS Packet Scheduler-0000. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:20 - Network Interface: Microsoft Wi-Fi Direct Virtual Adapter #7-WFP 802.3 MAC Layer LightWeight Filter-0000. Interface is running? No
+2018-10-15 23:26:49 main       INFO  QueryNetworkInterface:21 - The network interface has the following IP addresses:

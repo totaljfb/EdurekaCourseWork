@@ -1,0 +1,68 @@
+2018-10-07 21:54:30 main       DEBUG Server:35 - Waiting for connection...
+2018-10-07 21:54:39 main       DEBUG Server:38 - Connected to Socket[addr=/127.0.0.1,port=54459,localport=2015]
+2018-10-07 21:54:39 main       DEBUG Client:38 - Connected to host = localhost on port = 2015
+2018-10-07 21:55:04 main       DEBUG Server:43 - *** Echoing client -> 123
+2018-10-07 21:55:04 main       DEBUG Client:46 - Exiting client...
+2018-10-07 21:55:04 main       DEBUG Server:47 - Exiting server...
+2018-10-07 21:59:54 main       ERROR Client:52 - Lost connection to host due to I/O error.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at module9.tcp.sockets.Client.main(Client.java:35)
+2018-10-07 21:59:56 main       ERROR Client:52 - Lost connection to host due to I/O error.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at module9.tcp.sockets.Client.main(Client.java:35)
+2018-10-07 22:00:02 main       ERROR Client:52 - Lost connection to host due to I/O error.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at module9.tcp.sockets.Client.main(Client.java:35)
+2018-10-07 22:00:10 main       ERROR Client:52 - Lost connection to host due to I/O error.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at module9.tcp.sockets.Client.main(Client.java:35)
+2018-10-07 22:00:36 main       DEBUG Server:35 - Waiting for connection...
+2018-10-07 22:00:42 main       DEBUG Server:38 - Connected to Socket[addr=/127.0.0.1,port=54486,localport=2015]
+2018-10-07 22:00:42 main       DEBUG Client:38 - Connected to host = localhost on port = 2015
+2018-10-07 22:02:47 main       DEBUG Server:43 - *** Echoing client -> 
+2018-10-07 22:02:47 main       DEBUG Client:46 - Exiting client...
+2018-10-07 22:02:47 main       DEBUG Server:47 - Exiting server...
