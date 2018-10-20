@@ -56,15 +56,21 @@ public class MyFileDownloader {
 			System.exit(-1);
 		}	
 	}
-	
+	//need to use command line to see the effect, does not work in IDE
 	public static void print_progress(int count, int filesize) {
 		for(int i = 0; i< number_of_backspace; i++) {
 			System.out.print("\b");
 		}
 		percent = ((float)count)/((float)filesize)*100f + percent;
 		DecimalFormat df = new DecimalFormat("###.##");
-		System.out.print(df.format(percent) + "%");
-		number_of_backspace = df.format(percent).length();
+		System.out.println(df.format(percent) + "%");
+		number_of_backspace = df.format(percent).length() + 1;
+		try {
+			Thread.sleep(500);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 }
