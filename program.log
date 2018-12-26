@@ -1,0 +1,517 @@
+2018-12-01 22:39:16 main       INFO  Client:60 - user input: 1
+2018-12-01 22:39:19 main       INFO  Client:103 - User input date: 1-1-1
+2018-12-01 22:39:19 main       INFO  Client:104 - Wrong format, please use yyyy-mm-dd or yyyy-mm format
+2018-12-01 22:39:19 main       INFO  Client:105 - Program ended
+2018-12-01 22:39:29 main       INFO  Client:60 - user input: 1
+2018-12-01 22:47:08 main       INFO  Client:60 - user input: 1
+2018-12-01 22:47:21 main       INFO  Client:88 - User input date: 2018-2
+2018-12-01 22:47:21 main       INFO  Client:115 - Wrong format, please use yyyy-mm-dd or yyyy-mm format
+2018-12-01 22:47:21 main       INFO  Client:116 - Program ended
+2018-12-01 22:47:33 main       INFO  Client:60 - user input: 1
+2018-12-01 22:47:38 main       INFO  Client:88 - User input date: 1-1-1-1
+2018-12-01 22:47:46 main       INFO  Client:60 - user input: 1
+2018-12-01 22:47:50 main       INFO  Client:88 - User input date: 1-1-1
+2018-12-01 22:47:50 main       INFO  Client:115 - Wrong format, please use yyyy-mm-dd or yyyy-mm format
+2018-12-01 22:47:50 main       INFO  Client:116 - Program ended
+2018-12-01 23:09:23 main       INFO  Client:60 - user input: 1
+2018-12-01 23:09:28 main       INFO  Client:88 - User input date: 1-1-1
+2018-12-01 23:09:28 main       INFO  Client:125 - Wrong format or invalid date, please check your date and use yyyy-mm-dd or yyyy-mm format
+2018-12-01 23:09:28 main       INFO  Client:126 - Program ended
+2018-12-01 23:09:41 main       INFO  Client:60 - user input: 1
+2018-12-01 23:09:50 main       INFO  Client:88 - User input date: 2000-01-01
+2018-12-01 23:11:12 main       INFO  Client:60 - user input: 0
+2018-12-01 23:11:32 main       INFO  Client:60 - user input: 9
+2018-12-01 23:11:39 main       INFO  Client:60 - user input: 6
+2018-12-01 23:11:39 main       INFO  Client:78 - Program ended
+2018-12-01 23:29:55 main       INFO  Client:60 - user input: 1
+2018-12-01 23:30:02 main       INFO  Client:88 - User input date: 2018-11-28
+2018-12-02 23:21:59 main       INFO  Client:60 - user input: 1
+2018-12-02 23:22:07 main       INFO  Client:88 - User input date: 2018-11-28
+2018-12-02 23:22:24 main       INFO  Client:60 - user input: 1
+2018-12-02 23:22:30 main       INFO  Client:88 - User input date: 2018-11-22
+2018-12-03 00:04:48 main       INFO  Client:60 - user input: 1
+2018-12-03 00:04:50 main       INFO  Client:88 - User input date: 1
+2018-12-03 00:04:50 main       INFO  Client:141 - Wrong format or invalid date, please check your date and use yyyy-mm-dd or yyyy-mm format
+2018-12-03 00:04:50 main       INFO  Client:142 - Program ended
+2018-12-03 00:05:14 main       INFO  Client:60 - user input: 1
+2018-12-03 00:05:22 main       INFO  Client:88 - User input date: 2018-11-28
+2018-12-03 00:05:22 main       INFO  Client:159 - Matched records:
+2018-12-03 00:05:22 main       INFO  Client:164 - ahhhhd123497	2018-11-28 22:18:24	N	
+2018-12-03 00:05:22 main       INFO  Client:164 - adfehd123497	2018-11-28 22:18:24	N	
+2018-12-03 00:05:22 main       INFO  Client:164 - fdrbhd123437	2018-11-28 22:18:24	N	
+2018-12-03 00:05:22 main       INFO  Client:164 - ah345fgo8449	2018-11-28 22:18:24	N	
+2018-12-03 00:05:22 main       INFO  Client:164 - ahhhhd123497	2018-11-28 22:18:24	X	
+2018-12-03 00:05:22 main       INFO  Client:164 - adfehd123497	2018-11-28 22:18:24	X	
+2018-12-03 00:05:22 main       INFO  Client:164 - fdrbhd123437	2018-11-28 22:18:24	X	
+2018-12-03 00:05:22 main       INFO  Client:164 - ah345fgo8449	2018-11-28 22:18:24	X	
+2018-12-03 00:05:37 main       INFO  Client:60 - user input: 6
+2018-12-03 00:05:37 main       INFO  Client:78 - Program ended
+2018-12-03 00:21:20 main       INFO  Client:60 - user input: 1
+2018-12-03 00:21:25 main       INFO  Client:88 - User input date: 2018-11
+2018-12-03 00:21:25 main       INFO  Client:166 - Matched records:
+2018-12-03 00:21:25 main       INFO  Client:171 - ahhhhd123497	2018-11-28 22:18:24	N	
+2018-12-03 00:21:25 main       INFO  Client:171 - adfehd123497	2018-11-28 22:18:24	N	
+2018-12-03 00:21:25 main       INFO  Client:171 - fdrbhd123437	2018-11-28 22:18:24	N	
+2018-12-03 00:21:25 main       INFO  Client:171 - ah345fgo8449	2018-11-28 22:18:24	N	
+2018-12-03 00:21:25 main       INFO  Client:171 - ahhhhd123497	2018-11-28 22:18:24	X	
+2018-12-03 00:21:25 main       INFO  Client:171 - adfehd123497	2018-11-28 22:18:24	X	
+2018-12-03 00:21:25 main       INFO  Client:171 - fdrbhd123437	2018-11-28 22:18:24	X	
+2018-12-03 00:21:25 main       INFO  Client:171 - ah345fgo8449	2018-11-28 22:18:24	X	
+2018-12-03 00:21:36 main       INFO  Client:60 - user input: 1
+2018-12-03 00:21:41 main       INFO  Client:88 - User input date: 2018-05
+2018-12-03 00:21:41 main       INFO  Client:161 - No matched records found.
+2018-12-03 00:21:48 main       INFO  Client:60 - user input: 6
+2018-12-03 00:21:48 main       INFO  Client:78 - Program ended
+2018-12-03 22:35:18 main       INFO  Client:60 - user input: 1
+2018-12-03 22:35:29 main       INFO  Client:88 - User input date: 2018-11-28
+2018-12-03 22:38:07 main       INFO  Client:60 - user input: 1
+2018-12-03 22:38:12 main       INFO  Client:88 - User input date: 2018-11-28
+2018-12-03 22:38:58 main       INFO  Client:60 - user input: 1
+2018-12-03 22:39:02 main       INFO  Client:88 - User input date: 2018-11-28
+2018-12-03 22:39:02 main       INFO  Client:167 - Matched records:
+2018-12-03 22:39:02 main       INFO  Client:172 - S D	2018-11-28 22:18:24	N	
+2018-12-03 22:39:02 main       INFO  Client:172 - F G	2018-11-28 22:18:24	N	
+2018-12-03 22:39:02 main       INFO  Client:172 - I N	2018-11-28 22:18:24	N	
+2018-12-03 22:39:02 main       INFO  Client:172 - T R	2018-11-28 22:18:24	N	
+2018-12-03 22:39:02 main       INFO  Client:172 - S D	2018-11-28 22:18:24	X	
+2018-12-03 22:39:02 main       INFO  Client:172 - F G	2018-11-28 22:18:24	X	
+2018-12-03 22:39:02 main       INFO  Client:172 - I N	2018-11-28 22:18:24	X	
+2018-12-03 22:39:02 main       INFO  Client:172 - T R	2018-11-28 22:18:24	X	
+2018-12-03 22:39:52 main       INFO  Client:60 - user input: 1
+2018-12-03 22:39:57 main       INFO  Client:88 - User input date: 2018-11-28
+2018-12-03 22:39:57 main       INFO  Client:167 - Matched records:
+2018-12-03 22:39:57 main       INFO  Client:172 - S D	2018-11-28 22:18:24	N	
+2018-12-03 22:39:57 main       INFO  Client:172 - F G	2018-11-28 22:18:24	N	
+2018-12-03 22:39:57 main       INFO  Client:172 - I N	2018-11-28 22:18:24	N	
+2018-12-03 22:39:57 main       INFO  Client:172 - T R	2018-11-28 22:18:24	N	
+2018-12-03 22:39:57 main       INFO  Client:172 - S D	2018-11-28 22:18:24	X	
+2018-12-03 22:39:57 main       INFO  Client:172 - F G	2018-11-28 22:18:24	X	
+2018-12-03 22:39:57 main       INFO  Client:172 - I N	2018-11-28 22:18:24	X	
+2018-12-03 22:39:57 main       INFO  Client:172 - T R	2018-11-28 22:18:24	X	
+2018-12-03 22:40:51 main       INFO  Client:60 - user input: 1
+2018-12-03 22:40:56 main       INFO  Client:88 - User input date: 2018-11
+2018-12-03 22:40:56 main       INFO  Client:168 - Matched records:
+2018-12-03 22:40:56 main       INFO  Client:173 - ahhhhd123497	2018-11-28 22:18:24	N	
+2018-12-03 22:40:56 main       INFO  Client:173 - adfehd123497	2018-11-28 22:18:24	N	
+2018-12-03 22:40:56 main       INFO  Client:173 - fdrbhd123437	2018-11-28 22:18:24	N	
+2018-12-03 22:40:56 main       INFO  Client:173 - ah345fgo8449	2018-11-28 22:18:24	N	
+2018-12-03 22:40:56 main       INFO  Client:173 - ahhhhd123497	2018-11-28 22:18:24	X	
+2018-12-03 22:40:56 main       INFO  Client:173 - adfehd123497	2018-11-28 22:18:24	X	
+2018-12-03 22:40:56 main       INFO  Client:173 - fdrbhd123437	2018-11-28 22:18:24	X	
+2018-12-03 22:40:56 main       INFO  Client:173 - ah345fgo8449	2018-11-28 22:18:24	X	
+2018-12-03 22:43:18 main       INFO  Client:60 - user input: 1
+2018-12-03 22:43:21 main       INFO  Client:88 - User input date: 2018-11
+2018-12-03 22:43:21 main       INFO  Client:171 - Matched records:
+2018-12-03 22:43:21 main       INFO  Client:176 - S D	2018-11-28 22:18:24	N	
+2018-12-03 22:43:21 main       INFO  Client:176 - F G	2018-11-28 22:18:24	N	
+2018-12-03 22:43:21 main       INFO  Client:176 - I N	2018-11-28 22:18:24	N	
+2018-12-03 22:43:21 main       INFO  Client:176 - T R	2018-11-28 22:18:24	N	
+2018-12-03 22:43:21 main       INFO  Client:176 - S D	2018-11-28 22:18:24	X	
+2018-12-03 22:43:21 main       INFO  Client:176 - F G	2018-11-28 22:18:24	X	
+2018-12-03 22:43:21 main       INFO  Client:176 - I N	2018-11-28 22:18:24	X	
+2018-12-03 22:43:21 main       INFO  Client:176 - T R	2018-11-28 22:18:24	X	
+2018-12-04 22:31:50 main       INFO  Client:60 - user input: 1
+2018-12-04 22:31:54 main       INFO  Client:88 - User input date: 2018-11
+2018-12-04 22:31:54 main       INFO  Client:171 - Matched records:
+2018-12-04 22:31:54 main       INFO  Client:176 - S D	2018-11-28 22:18:24	N	
+2018-12-04 22:31:54 main       INFO  Client:176 - F G	2018-11-28 22:18:24	N	
+2018-12-04 22:31:54 main       INFO  Client:176 - I N	2018-11-28 22:18:24	N	
+2018-12-04 22:31:54 main       INFO  Client:176 - T R	2018-11-28 22:18:24	N	
+2018-12-04 22:31:54 main       INFO  Client:176 - S D	2018-11-28 22:18:24	X	
+2018-12-04 22:31:54 main       INFO  Client:176 - F G	2018-11-28 22:18:24	X	
+2018-12-04 22:31:54 main       INFO  Client:176 - I N	2018-11-28 22:18:24	X	
+2018-12-04 22:31:54 main       INFO  Client:176 - T R	2018-11-28 22:18:24	X	
+2018-12-04 22:33:04 main       INFO  Client:60 - user input: 1
+2018-12-04 22:33:09 main       INFO  Client:88 - User input date: 2018-11-28
+2018-12-04 22:33:29 main       INFO  Client:60 - user input: 1
+2018-12-04 22:33:37 main       INFO  Client:88 - User input date: 2018-11-28
+2018-12-04 22:33:37 main       INFO  Client:171 - Matched records:
+2018-12-04 22:33:37 main       INFO  Client:176 - S D	2018-11-28 22:18:24	N	
+2018-12-04 22:33:37 main       INFO  Client:176 - F G	2018-11-28 22:18:24	N	
+2018-12-04 22:33:37 main       INFO  Client:176 - I N	2018-11-28 22:18:24	N	
+2018-12-04 22:33:37 main       INFO  Client:176 - T R	2018-11-28 22:18:24	N	
+2018-12-04 22:33:37 main       INFO  Client:176 - S D	2018-11-28 22:18:24	X	
+2018-12-04 22:33:37 main       INFO  Client:176 - F G	2018-11-28 22:18:24	X	
+2018-12-04 22:33:37 main       INFO  Client:176 - I N	2018-11-28 22:18:24	X	
+2018-12-04 22:33:37 main       INFO  Client:176 - T R	2018-11-28 22:18:24	X	
+2018-12-04 22:34:26 main       INFO  Client:60 - user input: 1
+2018-12-04 22:44:34 main       INFO  Client:88 - User input date: 5
+2018-12-04 22:44:34 main       INFO  Client:153 - Wrong format or invalid date, please check your date and use yyyy-mm-dd or yyyy-mm format
+2018-12-04 22:44:34 main       INFO  Client:154 - Program ended
+2018-12-06 00:49:10 main       INFO  Client:63 - user input: 1
+2018-12-06 00:49:14 main       INFO  Client:111 - User input date: 2018-11
+2018-12-06 00:49:14 main       INFO  Client:189 - Matched records:
+2018-12-06 00:49:14 main       INFO  Client:194 - S D	2018-11-28 22:18:24	N	
+2018-12-06 00:49:14 main       INFO  Client:194 - F G	2018-11-28 22:18:24	N	
+2018-12-06 00:49:14 main       INFO  Client:194 - I N	2018-11-28 22:18:24	N	
+2018-12-06 00:49:14 main       INFO  Client:194 - T R	2018-11-28 22:18:24	N	
+2018-12-06 00:49:14 main       INFO  Client:194 - S D	2018-11-28 22:18:24	X	
+2018-12-06 00:49:14 main       INFO  Client:194 - F G	2018-11-28 22:18:24	X	
+2018-12-06 00:49:14 main       INFO  Client:194 - I N	2018-11-28 22:18:24	X	
+2018-12-06 00:49:14 main       INFO  Client:194 - T R	2018-11-28 22:18:24	X	
+2018-12-06 00:49:17 main       INFO  Client:63 - user input: 2
+2018-12-06 00:52:14 main       INFO  Client:63 - user input: 2
+2018-12-06 00:52:18 main       INFO  Client:113 - User input date: 2
+2018-12-06 00:52:18 main       INFO  Client:173 - Wrong format or invalid date, please check your date and use yyyy-mm-dd or yyyy-mm format
+2018-12-06 00:52:18 main       INFO  Client:174 - Program ended
+2018-12-06 01:10:35 main       INFO  Client:63 - user input: 2
+2018-12-06 01:10:47 main       INFO  Client:113 - User input: 2
+2018-12-06 01:10:47 main       INFO  Client:173 - Wrong format or invalid date, please check your date and use yyyy-mm-dd or yyyy-mm format
+2018-12-06 01:10:47 main       INFO  Client:174 - Program ended
+2018-12-06 01:11:36 main       INFO  Client:63 - user input: 2
+2018-12-06 01:12:56 main       INFO  Client:113 - User input: 2
+2018-12-06 01:12:56 main       INFO  Client:173 - Wrong format or invalid date, please check your date and use yyyy-mm-dd or yyyy-mm format
+2018-12-06 01:12:56 main       INFO  Client:174 - Program ended
+2018-12-06 01:14:00 main       INFO  Client:63 - user input: 2
+2018-12-06 01:14:18 main       INFO  Client:113 - User input: 2
+2018-12-06 01:14:18 main       INFO  Client:173 - Wrong format or invalid date, please check your date and use yyyy-mm-dd or yyyy-mm format
+2018-12-06 01:14:18 main       INFO  Client:174 - Program ended
+2018-12-06 01:14:43 main       INFO  Client:63 - user input: 2
+2018-12-06 01:15:32 main       INFO  Client:113 - User input: 1234
+2018-12-06 01:17:09 main       INFO  Client:63 - user input: 2
+2018-12-06 01:17:17 main       INFO  Client:114 - User input: 2
+2018-12-06 01:17:38 main       INFO  Client:63 - user input: 1
+2018-12-06 01:17:42 main       INFO  Client:114 - User input: 1
+2018-12-06 01:18:46 main       INFO  Client:63 - user input: 1
+2018-12-06 01:19:15 main       INFO  Client:114 - User input: 1
+2018-12-06 01:21:20 main       INFO  Client:63 - user input: 1
+2018-12-06 01:21:40 main       INFO  Client:114 - User input: 1
+2018-12-06 01:21:44 main       INFO  Client:174 - Wrong format or invalid date, please check your date and use yyyy-mm-dd or yyyy-mm format
+2018-12-06 01:21:45 main       INFO  Client:175 - Program ended
+2018-12-06 01:22:07 main       INFO  Client:63 - user input: 2
+2018-12-06 01:22:13 main       INFO  Client:114 - User input: 2018-22
+2018-12-06 01:22:13 main       INFO  Client:187 - No matched records found.
+2018-12-06 01:22:13 main       INFO  Client:105 - Invalid input, please check the format of the date and employee name 
+2018-12-06 01:22:13 main       INFO  Client:106 - Program ended
+2018-12-06 22:28:01 main       INFO  Client:63 - user input: 1
+2018-12-06 22:28:22 main       INFO  Client:63 - user input: 2
+2018-12-06 22:28:28 main       INFO  Client:114 - User input: vcvc
+2018-12-06 22:28:29 main       INFO  Client:174 - Wrong format or invalid date, please check your date and use yyyy-mm-dd or yyyy-mm format
+2018-12-06 22:28:29 main       INFO  Client:175 - Program ended
+2018-12-06 22:28:43 main       INFO  Client:63 - user input: 2
+2018-12-06 22:29:03 main       INFO  Client:114 - User input: 1
+2018-12-06 22:29:47 main       INFO  Client:63 - user input: 2
+2018-12-06 22:31:02 main       INFO  Client:63 - user input: 2
+2018-12-06 22:31:42 main       INFO  Client:114 - User input: 1
+2018-12-06 22:33:20 main       INFO  Client:64 - user input: 2
+2018-12-06 22:33:38 main       INFO  Client:117 - User input: 1
+2018-12-06 22:34:27 main       INFO  Client:64 - user input: 1
+2018-12-06 22:34:52 main       INFO  Client:117 - User input: 1
+2018-12-06 22:35:03 main       INFO  Client:177 - Wrong format or invalid date, please check your date and use yyyy-mm-dd or yyyy-mm format
+2018-12-06 22:35:03 main       INFO  Client:178 - Program ended
+2018-12-06 22:35:52 main       INFO  Client:64 - user input: 2
+2018-12-06 22:36:15 main       INFO  Client:117 - User input: 22
+2018-12-06 22:36:48 main       INFO  Client:177 - Wrong format or invalid date, please check your date and use yyyy-mm-dd or yyyy-mm format
+2018-12-06 22:36:48 main       INFO  Client:178 - Program ended
+2018-12-06 22:37:15 main       INFO  Client:64 - user input: 2
+2018-12-06 22:38:20 main       INFO  Client:64 - user input: 2
+2018-12-06 22:38:25 main       INFO  Client:117 - User input: 12rsr
+2018-12-06 22:38:25 main       INFO  Client:177 - Wrong format or invalid date, please check your date and use yyyy-mm-dd or yyyy-mm format
+2018-12-06 22:38:25 main       INFO  Client:178 - Program ended
+2018-12-06 22:43:18 main       INFO  Client:64 - user input: 2
+2018-12-06 22:43:22 main       INFO  Client:121 - User input: 1,  and emp_name = dfsdf
+2018-12-06 22:43:22 main       INFO  Client:183 - Wrong format or invalid date, please check your date and use yyyy-mm-dd or yyyy-mm format
+2018-12-06 22:43:22 main       INFO  Client:184 - Program ended
+2018-12-06 22:45:35 main       INFO  Client:64 - user input: 2
+2018-12-06 22:45:40 main       INFO  Client:122 - User input: 3wr4r,  324dfsd
+2018-12-06 22:45:40 main       INFO  Client:184 - Wrong format or invalid date, please check your date and use yyyy-mm-dd or yyyy-mm format
+2018-12-06 22:45:40 main       INFO  Client:185 - Program ended
+2018-12-06 22:55:29 main       INFO  Client:64 - user input: 1
+2018-12-06 22:55:35 main       INFO  Client:118 - User input: 2018-11-28
+2018-12-06 22:55:35 main       INFO  Client:202 - Matched records:
+2018-12-06 22:55:35 main       INFO  Client:207 - S D	2018-11-28 22:18:24	N	
+2018-12-06 22:55:35 main       INFO  Client:207 - F G	2018-11-28 22:18:24	N	
+2018-12-06 22:55:35 main       INFO  Client:207 - I N	2018-11-28 22:18:24	N	
+2018-12-06 22:55:35 main       INFO  Client:207 - T R	2018-11-28 22:18:24	N	
+2018-12-06 22:55:35 main       INFO  Client:207 - S D	2018-11-28 22:18:24	X	
+2018-12-06 22:55:35 main       INFO  Client:207 - F G	2018-11-28 22:18:24	X	
+2018-12-06 22:55:35 main       INFO  Client:207 - I N	2018-11-28 22:18:24	X	
+2018-12-06 22:55:35 main       INFO  Client:207 - T R	2018-11-28 22:18:24	X	
+2018-12-06 22:55:40 main       INFO  Client:64 - user input: 1
+2018-12-06 22:55:45 main       INFO  Client:118 - User input: 2018-11
+2018-12-06 22:55:45 main       INFO  Client:202 - Matched records:
+2018-12-06 22:55:45 main       INFO  Client:207 - S D	2018-11-28 22:18:24	N	
+2018-12-06 22:55:45 main       INFO  Client:207 - F G	2018-11-28 22:18:24	N	
+2018-12-06 22:55:45 main       INFO  Client:207 - I N	2018-11-28 22:18:24	N	
+2018-12-06 22:55:45 main       INFO  Client:207 - T R	2018-11-28 22:18:24	N	
+2018-12-06 22:55:45 main       INFO  Client:207 - S D	2018-11-28 22:18:24	X	
+2018-12-06 22:55:45 main       INFO  Client:207 - F G	2018-11-28 22:18:24	X	
+2018-12-06 22:55:45 main       INFO  Client:207 - I N	2018-11-28 22:18:24	X	
+2018-12-06 22:55:45 main       INFO  Client:207 - T R	2018-11-28 22:18:24	X	
+2018-12-06 22:55:49 main       INFO  Client:64 - user input: 1
+2018-12-06 22:55:52 main       INFO  Client:118 - User input: 23423-33
+2018-12-06 22:55:52 main       INFO  Client:168 - Wrong format or invalid date, please check your date and use yyyy-mm-dd or yyyy-mm format
+2018-12-06 22:55:52 main       INFO  Client:169 - Program ended
+2018-12-06 22:56:04 main       INFO  Client:64 - user input: 1
+2018-12-06 22:56:11 main       INFO  Client:118 - User input: 2018-13
+2018-12-06 22:56:11 main       INFO  Client:197 - No matched records found.
+2018-12-06 22:57:02 main       INFO  Client:64 - user input: 2
+2018-12-06 22:58:19 main       INFO  Client:64 - user input: 1
+2018-12-06 22:58:23 main       INFO  Client:116 - User input: 2018-11
+2018-12-06 22:58:23 main       INFO  Client:200 - Matched records:
+2018-12-06 22:58:23 main       INFO  Client:205 - S D	2018-11-28 22:18:24	N	
+2018-12-06 22:58:23 main       INFO  Client:205 - F G	2018-11-28 22:18:24	N	
+2018-12-06 22:58:23 main       INFO  Client:205 - I N	2018-11-28 22:18:24	N	
+2018-12-06 22:58:23 main       INFO  Client:205 - T R	2018-11-28 22:18:24	N	
+2018-12-06 22:58:23 main       INFO  Client:205 - S D	2018-11-28 22:18:24	X	
+2018-12-06 22:58:23 main       INFO  Client:205 - F G	2018-11-28 22:18:24	X	
+2018-12-06 22:58:23 main       INFO  Client:205 - I N	2018-11-28 22:18:24	X	
+2018-12-06 22:58:23 main       INFO  Client:205 - T R	2018-11-28 22:18:24	X	
+2018-12-06 22:58:24 main       INFO  Client:64 - user input: 1
+2018-12-06 22:58:28 main       INFO  Client:116 - User input: 2018-11-28
+2018-12-06 22:58:28 main       INFO  Client:200 - Matched records:
+2018-12-06 22:58:28 main       INFO  Client:205 - S D	2018-11-28 22:18:24	N	
+2018-12-06 22:58:28 main       INFO  Client:205 - F G	2018-11-28 22:18:24	N	
+2018-12-06 22:58:28 main       INFO  Client:205 - I N	2018-11-28 22:18:24	N	
+2018-12-06 22:58:28 main       INFO  Client:205 - T R	2018-11-28 22:18:24	N	
+2018-12-06 22:58:28 main       INFO  Client:205 - S D	2018-11-28 22:18:24	X	
+2018-12-06 22:58:28 main       INFO  Client:205 - F G	2018-11-28 22:18:24	X	
+2018-12-06 22:58:28 main       INFO  Client:205 - I N	2018-11-28 22:18:24	X	
+2018-12-06 22:58:28 main       INFO  Client:205 - T R	2018-11-28 22:18:24	X	
+2018-12-06 22:58:31 main       INFO  Client:64 - user input: 2
+2018-12-06 22:58:55 main       INFO  Client:64 - user input: 2
+2018-12-06 23:00:04 main       INFO  Client:64 - user input: 2
+2018-12-06 23:03:06 main       INFO  Client:64 - user input: 2
+2018-12-06 23:04:33 main       INFO  Client:64 - user input: 2
+2018-12-06 23:12:03 main       INFO  Client:64 - user input: 2
+2018-12-06 23:12:03 main       INFO  Client:106 - Invalid input, please check the format of the date and employee name 
+2018-12-06 23:12:03 main       INFO  Client:107 - Program ended
+2018-12-06 23:12:15 main       INFO  Client:64 - user input: 2
+2018-12-06 23:12:15 main       INFO  Client:106 - Invalid input, please check the format of the date and employee name 
+2018-12-06 23:12:15 main       INFO  Client:107 - Program ended
+2018-12-06 23:12:46 main       INFO  Client:64 - user input: 1
+2018-12-06 23:12:50 main       INFO  Client:116 - User input: 2018-11
+2018-12-06 23:12:50 main       INFO  Client:200 - Matched records:
+2018-12-06 23:12:50 main       INFO  Client:205 - S D	2018-11-28 22:18:24	N	
+2018-12-06 23:12:50 main       INFO  Client:205 - F G	2018-11-28 22:18:24	N	
+2018-12-06 23:12:50 main       INFO  Client:205 - I N	2018-11-28 22:18:24	N	
+2018-12-06 23:12:50 main       INFO  Client:205 - T R	2018-11-28 22:18:24	N	
+2018-12-06 23:12:50 main       INFO  Client:205 - S D	2018-11-28 22:18:24	X	
+2018-12-06 23:12:50 main       INFO  Client:205 - F G	2018-11-28 22:18:24	X	
+2018-12-06 23:12:50 main       INFO  Client:205 - I N	2018-11-28 22:18:24	X	
+2018-12-06 23:12:50 main       INFO  Client:205 - T R	2018-11-28 22:18:24	X	
+2018-12-06 23:12:52 main       INFO  Client:64 - user input: 3
+2018-12-06 23:12:55 main       INFO  Client:64 - user input: 2
+2018-12-06 23:12:55 main       INFO  Client:106 - Invalid input, please check the format of the date and employee name 
+2018-12-06 23:12:55 main       INFO  Client:107 - Program ended
+2018-12-09 23:36:42 main       INFO  Client:65 - user input: 1
+2018-12-10 00:16:30 main       INFO  Client:61 - User input: 1
+1
+2
+3
+4
+5
+56
+6
+
+
+q
+
+2018-12-10 00:16:40 main       INFO  Client:87 - Program ended
+2018-12-10 00:24:46 main       INFO  Client:64 - user input: 1
+2018-12-10 00:25:31 main       INFO  Client:64 - user input: 1
+2018-12-10 00:26:49 main       INFO  Client:64 - user input: 1
+2018-12-10 00:28:41 main       INFO  Client:64 - user input: 1
+2018-12-10 00:29:26 main       INFO  Client:64 - user input: 1
+2018-12-10 00:30:13 main       INFO  Client:64 - user input: 1
+2018-12-10 00:30:36 main       INFO  Client:64 - user input: 1
+2018-12-10 22:03:37 main       INFO  Client:66 - user input: 1
+2018-12-10 22:03:41 main       INFO  Client:184 - Matched records:
+2018-12-10 22:03:41 main       INFO  Client:189 - S D	2018-11-28 22:18:24	N	
+2018-12-10 22:03:41 main       INFO  Client:189 - F G	2018-11-28 22:18:24	N	
+2018-12-10 22:03:41 main       INFO  Client:189 - I N	2018-11-28 22:18:24	N	
+2018-12-10 22:03:41 main       INFO  Client:189 - T R	2018-11-28 22:18:24	N	
+2018-12-10 22:03:41 main       INFO  Client:189 - S D	2018-11-28 22:18:24	X	
+2018-12-10 22:03:41 main       INFO  Client:189 - F G	2018-11-28 22:18:24	X	
+2018-12-10 22:03:41 main       INFO  Client:189 - I N	2018-11-28 22:18:24	X	
+2018-12-10 22:03:41 main       INFO  Client:189 - T R	2018-11-28 22:18:24	X	
+2018-12-10 22:03:50 main       INFO  Client:66 - user input: 1
+2018-12-10 22:03:54 main       INFO  Client:184 - Matched records:
+2018-12-10 22:03:54 main       INFO  Client:189 - S D	2018-11-28 22:18:24	N	
+2018-12-10 22:03:54 main       INFO  Client:189 - F G	2018-11-28 22:18:24	N	
+2018-12-10 22:03:54 main       INFO  Client:189 - I N	2018-11-28 22:18:24	N	
+2018-12-10 22:03:54 main       INFO  Client:189 - T R	2018-11-28 22:18:24	N	
+2018-12-10 22:03:54 main       INFO  Client:189 - S D	2018-11-28 22:18:24	X	
+2018-12-10 22:03:54 main       INFO  Client:189 - F G	2018-11-28 22:18:24	X	
+2018-12-10 22:03:54 main       INFO  Client:189 - I N	2018-11-28 22:18:24	X	
+2018-12-10 22:03:54 main       INFO  Client:189 - T R	2018-11-28 22:18:24	X	
+2018-12-10 22:03:59 main       INFO  Client:66 - user input: 6
+2018-12-10 22:03:59 main       INFO  Client:88 - Program ended
+2018-12-10 22:05:18 main       INFO  Client:66 - user input: 1
+2018-12-10 22:05:22 main       INFO  Client:111 - User input: 2112-22
+2018-12-10 22:05:22 main       INFO  Client:180 - No matched records found.
+2018-12-10 22:05:28 main       INFO  Client:66 - user input: 1
+2018-12-10 22:05:31 main       INFO  Client:111 - User input: 2112-22
+2018-12-10 22:05:31 main       INFO  Client:180 - No matched records found.
+2018-12-10 22:05:41 main       INFO  Client:66 - user input: 1
+2018-12-10 22:05:46 main       INFO  Client:107 - User input: null2112-22,2018-11,2018-11,
+2018-12-10 22:05:46 main       INFO  Client:108 - Wrong format input, please try again.
+2018-12-10 22:06:23 main       INFO  Client:65 - user input: 1
+2018-12-10 22:06:27 main       INFO  Client:111 - User input: 1212-1212-55
+2018-12-10 22:06:27 main       INFO  Client:161 - Wrong format or invalid date, please check your date and use yyyy-mm-dd or yyyy-mm format
+2018-12-10 22:06:27 main       INFO  Client:162 - Program ended
+2018-12-10 22:06:39 main       INFO  Client:65 - user input: 22
+2018-12-10 22:06:43 main       INFO  Client:65 - user input: 1
+2018-12-10 22:06:46 main       INFO  Client:111 - User input: 2018-11
+2018-12-10 22:06:46 main       INFO  Client:185 - Matched records:
+2018-12-10 22:06:46 main       INFO  Client:190 - S D	2018-11-28 22:18:24	N	
+2018-12-10 22:06:46 main       INFO  Client:190 - F G	2018-11-28 22:18:24	N	
+2018-12-10 22:06:46 main       INFO  Client:190 - I N	2018-11-28 22:18:24	N	
+2018-12-10 22:06:46 main       INFO  Client:190 - T R	2018-11-28 22:18:24	N	
+2018-12-10 22:06:46 main       INFO  Client:190 - S D	2018-11-28 22:18:24	X	
+2018-12-10 22:06:46 main       INFO  Client:190 - F G	2018-11-28 22:18:24	X	
+2018-12-10 22:06:46 main       INFO  Client:190 - I N	2018-11-28 22:18:24	X	
+2018-12-10 22:06:46 main       INFO  Client:190 - T R	2018-11-28 22:18:24	X	
+2018-12-10 22:06:48 main       INFO  Client:65 - user input: 1
+2018-12-10 22:06:51 main       INFO  Client:111 - User input: 2018-11-28
+2018-12-10 22:06:51 main       INFO  Client:185 - Matched records:
+2018-12-10 22:06:51 main       INFO  Client:190 - S D	2018-11-28 22:18:24	N	
+2018-12-10 22:06:51 main       INFO  Client:190 - F G	2018-11-28 22:18:24	N	
+2018-12-10 22:06:51 main       INFO  Client:190 - I N	2018-11-28 22:18:24	N	
+2018-12-10 22:06:51 main       INFO  Client:190 - T R	2018-11-28 22:18:24	N	
+2018-12-10 22:06:51 main       INFO  Client:190 - S D	2018-11-28 22:18:24	X	
+2018-12-10 22:06:51 main       INFO  Client:190 - F G	2018-11-28 22:18:24	X	
+2018-12-10 22:06:51 main       INFO  Client:190 - I N	2018-11-28 22:18:24	X	
+2018-12-10 22:06:51 main       INFO  Client:190 - T R	2018-11-28 22:18:24	X	
+2018-12-10 22:06:53 main       INFO  Client:65 - user input: 1
+2018-12-10 22:06:55 main       INFO  Client:111 - User input: 2018-11
+2018-12-10 22:06:55 main       INFO  Client:185 - Matched records:
+2018-12-10 22:06:55 main       INFO  Client:190 - S D	2018-11-28 22:18:24	N	
+2018-12-10 22:06:55 main       INFO  Client:190 - F G	2018-11-28 22:18:24	N	
+2018-12-10 22:06:55 main       INFO  Client:190 - I N	2018-11-28 22:18:24	N	
+2018-12-10 22:06:55 main       INFO  Client:190 - T R	2018-11-28 22:18:24	N	
+2018-12-10 22:06:55 main       INFO  Client:190 - S D	2018-11-28 22:18:24	X	
+2018-12-10 22:06:55 main       INFO  Client:190 - F G	2018-11-28 22:18:24	X	
+2018-12-10 22:06:55 main       INFO  Client:190 - I N	2018-11-28 22:18:24	X	
+2018-12-10 22:06:55 main       INFO  Client:190 - T R	2018-11-28 22:18:24	X	
+2018-12-10 22:06:57 main       INFO  Client:65 - user input: 6
+2018-12-10 22:06:57 main       INFO  Client:88 - Program ended
+2018-12-10 22:29:31 main       INFO  Client:65 - user input: 2
+2018-12-10 22:29:43 main       INFO  Client:61 - User input: N
+2018-12-10 22:29:43 main       INFO  Client:88 - Program ended
+2018-12-10 22:37:50 main       INFO  Client:65 - user input: 2
+2018-12-10 22:37:56 main       INFO  Client:86 - User in put: [Ljava.lang.String;@246ae04d
+2018-12-10 22:37:56 main       INFO  Client:87 - Wrong format, programm ended
+2018-12-10 22:38:40 main       INFO  Client:65 - user input: 2
+2018-12-10 22:47:37 main       INFO  Client:63 - user input: 2
+2018-12-10 22:49:21 main       INFO  Client:63 - user input: 2
+2018-12-10 22:49:30 main       INFO  Client:114 - User input: 2018-11, 
+2018-12-10 22:49:44 main       INFO  Client:63 - user input: 2
+2018-12-10 22:50:17 main       INFO  Client:114 - User input: 2018-11, 
+2018-12-10 22:50:58 main       INFO  Client:63 - user input: 2
+2018-12-10 22:52:32 main       INFO  Client:63 - user input: 2
+2018-12-10 23:13:56 main       INFO  Client:63 - user input: 2
+2018-12-10 23:46:38 main       INFO  Client:62 - user input: 1
+2018-12-10 23:46:42 main       INFO  Client:96 - User input: 2018-11
+2018-12-10 23:46:42 main       INFO  Client:196 - Matched records:
+2018-12-10 23:46:42 main       INFO  Client:201 - S D	2018-11-28 22:18:24	N	
+2018-12-10 23:46:42 main       INFO  Client:201 - F G	2018-11-28 22:18:24	N	
+2018-12-10 23:46:42 main       INFO  Client:201 - I N	2018-11-28 22:18:24	N	
+2018-12-10 23:46:42 main       INFO  Client:201 - T R	2018-11-28 22:18:24	N	
+2018-12-10 23:46:42 main       INFO  Client:201 - S D	2018-11-28 22:18:24	X	
+2018-12-10 23:46:42 main       INFO  Client:201 - F G	2018-11-28 22:18:24	X	
+2018-12-10 23:46:42 main       INFO  Client:201 - I N	2018-11-28 22:18:24	X	
+2018-12-10 23:46:42 main       INFO  Client:201 - T R	2018-11-28 22:18:24	X	
+2018-12-10 23:46:47 main       INFO  Client:62 - user input: 1
+2018-12-10 23:46:51 main       INFO  Client:96 - User input: 2018-11-28
+2018-12-10 23:46:51 main       INFO  Client:196 - Matched records:
+2018-12-10 23:46:51 main       INFO  Client:201 - S D	2018-11-28 22:18:24	N	
+2018-12-10 23:46:51 main       INFO  Client:201 - F G	2018-11-28 22:18:24	N	
+2018-12-10 23:46:51 main       INFO  Client:201 - I N	2018-11-28 22:18:24	N	
+2018-12-10 23:46:51 main       INFO  Client:201 - T R	2018-11-28 22:18:24	N	
+2018-12-10 23:46:51 main       INFO  Client:201 - S D	2018-11-28 22:18:24	X	
+2018-12-10 23:46:51 main       INFO  Client:201 - F G	2018-11-28 22:18:24	X	
+2018-12-10 23:46:51 main       INFO  Client:201 - I N	2018-11-28 22:18:24	X	
+2018-12-10 23:46:51 main       INFO  Client:201 - T R	2018-11-28 22:18:24	X	
+2018-12-10 23:46:57 main       INFO  Client:62 - user input: 1
+2018-12-10 23:47:01 main       INFO  Client:96 - User input: 22-22
+2018-12-10 23:47:01 main       INFO  Client:162 - Wrong format or invalid date, please check your date and use yyyy-mm-dd or yyyy-mm format
+2018-12-10 23:47:01 main       INFO  Client:163 - Program ended
+2018-12-10 23:47:09 main       INFO  Client:62 - user input: 1
+2018-12-10 23:47:17 main       INFO  Client:96 - User input: 2018-12-35
+2018-12-10 23:47:17 main       INFO  Client:172 - Wrong format or invalid date, please check your date and use yyyy-mm-dd or yyyy-mm format
+2018-12-10 23:47:17 main       INFO  Client:173 - Program ended
+2018-12-10 23:47:28 main       INFO  Client:62 - user input: 2
+2018-12-10 23:47:32 main       INFO  Client:96 - User input: 2018-11
+2018-12-12 00:19:56 main       INFO  Client:66 - user input: 1
+2018-12-12 00:20:00 main       INFO  Client:115 - User input: 2018-11
+2018-12-12 00:20:00 main       INFO  Client:211 - Matched records:
+2018-12-12 00:20:00 main       INFO  Client:216 - S D	2018-11-28 22:18:24	N	
+2018-12-12 00:20:00 main       INFO  Client:216 - F G	2018-11-28 22:18:24	N	
+2018-12-12 00:20:00 main       INFO  Client:216 - I N	2018-11-28 22:18:24	N	
+2018-12-12 00:20:00 main       INFO  Client:216 - T R	2018-11-28 22:18:24	N	
+2018-12-12 00:20:00 main       INFO  Client:216 - S D	2018-11-28 22:18:24	X	
+2018-12-12 00:20:00 main       INFO  Client:216 - F G	2018-11-28 22:18:24	X	
+2018-12-12 00:20:00 main       INFO  Client:216 - I N	2018-11-28 22:18:24	X	
+2018-12-12 00:20:00 main       INFO  Client:216 - T R	2018-11-28 22:18:24	X	
+2018-12-12 00:20:04 main       INFO  Client:66 - user input: 1
+2018-12-12 00:20:07 main       INFO  Client:115 - User input: 2018-11-28
+2018-12-12 00:20:07 main       INFO  Client:211 - Matched records:
+2018-12-12 00:20:07 main       INFO  Client:216 - S D	2018-11-28 22:18:24	N	
+2018-12-12 00:20:07 main       INFO  Client:216 - F G	2018-11-28 22:18:24	N	
+2018-12-12 00:20:07 main       INFO  Client:216 - I N	2018-11-28 22:18:24	N	
+2018-12-12 00:20:07 main       INFO  Client:216 - T R	2018-11-28 22:18:24	N	
+2018-12-12 00:20:07 main       INFO  Client:216 - S D	2018-11-28 22:18:24	X	
+2018-12-12 00:20:07 main       INFO  Client:216 - F G	2018-11-28 22:18:24	X	
+2018-12-12 00:20:07 main       INFO  Client:216 - I N	2018-11-28 22:18:24	X	
+2018-12-12 00:20:07 main       INFO  Client:216 - T R	2018-11-28 22:18:24	X	
+2018-12-12 00:20:17 main       INFO  Client:66 - user input: 1
+2018-12-12 00:20:24 main       INFO  Client:115 - User input: 2018-06
+2018-12-12 00:20:24 main       INFO  Client:206 - No matched records found.
+2018-12-12 00:20:28 main       INFO  Client:66 - user input: 1
+2018-12-12 00:20:31 main       INFO  Client:115 - User input: 2018-33
+2018-12-12 00:20:31 main       INFO  Client:206 - No matched records found.
+2018-12-12 00:20:36 main       INFO  Client:66 - user input: 2
+2018-12-12 00:20:45 main       INFO  Client:115 - User input: 2018-11, I N
+2018-12-12 00:22:24 main       INFO  Client:66 - user input: 2
+2018-12-12 00:23:18 main       INFO  Client:115 - User input: 2018-11, I N
+2018-12-12 00:24:02 main       INFO  Client:66 - user input: 2
+2018-12-12 00:24:09 main       INFO  Client:115 - User input: 2018-11, I N
+2018-12-12 00:24:09 main       INFO  Client:206 - No matched records found.
+2018-12-12 00:24:15 main       INFO  Client:66 - user input: 1
+2018-12-12 00:24:21 main       INFO  Client:115 - User input: 2018-11
+2018-12-12 00:24:21 main       INFO  Client:211 - Matched records:
+2018-12-12 00:24:21 main       INFO  Client:216 - S D	2018-11-28 22:18:24	N	
+2018-12-12 00:24:21 main       INFO  Client:216 - F G	2018-11-28 22:18:24	N	
+2018-12-12 00:24:21 main       INFO  Client:216 - I N	2018-11-28 22:18:24	N	
+2018-12-12 00:24:21 main       INFO  Client:216 - T R	2018-11-28 22:18:24	N	
+2018-12-12 00:24:21 main       INFO  Client:216 - S D	2018-11-28 22:18:24	X	
+2018-12-12 00:24:21 main       INFO  Client:216 - F G	2018-11-28 22:18:24	X	
+2018-12-12 00:24:21 main       INFO  Client:216 - I N	2018-11-28 22:18:24	X	
+2018-12-12 00:24:21 main       INFO  Client:216 - T R	2018-11-28 22:18:24	X	
+2018-12-12 00:24:29 main       INFO  Client:66 - user input: 6
+2018-12-12 00:24:29 main       INFO  Client:102 - Program ended
+2018-12-12 00:24:35 main       INFO  Client:66 - user input: 2
+2018-12-12 00:25:01 main       INFO  Client:115 - User input: 2018-11, I N
+2018-12-12 00:25:53 main       INFO  Client:206 - No matched records found.
+2018-12-12 00:30:49 main       INFO  Client:66 - user input: 2
+2018-12-12 00:30:56 main       INFO  Client:115 - User input: 2018-11, I N
+2018-12-12 00:30:56 main       INFO  Client:211 - Matched records:
+2018-12-12 00:30:56 main       INFO  Client:216 - I N	2018-11-28 22:18:24	N	
+2018-12-12 00:30:56 main       INFO  Client:216 - I N	2018-11-28 22:18:24	X	
+2018-12-12 00:31:05 main       INFO  Client:66 - user input: 2
+2018-12-12 00:31:52 main       INFO  Client:115 - User input: 2018-11-28, S D
+2018-12-12 00:31:52 main       INFO  Client:211 - Matched records:
+2018-12-12 00:31:52 main       INFO  Client:216 - S D	2018-11-28 22:18:24	N	
+2018-12-12 00:31:52 main       INFO  Client:216 - S D	2018-11-28 22:18:24	X	
+2018-12-12 23:20:22 main       INFO  Client:67 - user input: 1
+2018-12-12 23:20:26 main       INFO  Client:116 - User input: 2018-11
+2018-12-12 23:20:26 main       INFO  Client:212 - Matched records:
+2018-12-12 23:20:26 main       INFO  Client:217 - S D	2018-11-28 22:18:24	N	
+2018-12-12 23:20:26 main       INFO  Client:217 - F G	2018-11-28 22:18:24	N	
+2018-12-12 23:20:26 main       INFO  Client:217 - I N	2018-11-28 22:18:24	N	
+2018-12-12 23:20:26 main       INFO  Client:217 - T R	2018-11-28 22:18:24	N	
+2018-12-12 23:20:26 main       INFO  Client:217 - S D	2018-11-28 22:18:24	X	
+2018-12-12 23:20:26 main       INFO  Client:217 - F G	2018-11-28 22:18:24	X	
+2018-12-12 23:20:26 main       INFO  Client:217 - I N	2018-11-28 22:18:24	X	
+2018-12-12 23:20:26 main       INFO  Client:217 - T R	2018-11-28 22:18:24	X	
+2018-12-12 23:20:33 main       INFO  Client:67 - user input: 2
+2018-12-12 23:20:42 main       INFO  Client:116 - User input: 2018-11, S A
+2018-12-12 23:20:42 main       INFO  Client:207 - No matched records found.
+2018-12-12 23:20:50 main       INFO  Client:67 - user input: 2
+2018-12-12 23:20:57 main       INFO  Client:116 - User input: 2018-11-28, I N
+2018-12-12 23:20:57 main       INFO  Client:212 - Matched records:
+2018-12-12 23:20:57 main       INFO  Client:217 - I N	2018-11-28 22:18:24	N	
+2018-12-12 23:20:57 main       INFO  Client:217 - I N	2018-11-28 22:18:24	X	
+2018-12-12 23:21:14 main       INFO  Client:67 - user input: 6
+2018-12-12 23:21:14 main       INFO  Client:103 - Program ended

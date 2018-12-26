@@ -25,7 +25,7 @@ public class ParameterisedQuery {
 				ResultSet rs = pstmt.executeQuery();
 				ResultSetMetaData rsmd = rs.getMetaData();
 				String single_row = "";
-				//display no match if resultset is empty
+				//display no match if result set is empty
 				if(!rs.next()) {
 					System.out.println("No matched student found.");
 				//display matched result
