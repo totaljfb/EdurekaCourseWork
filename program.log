@@ -515,3 +515,47 @@ q
 2018-12-12 23:20:57 main       INFO  Client:217 - I N	2018-11-28 22:18:24	X	
 2018-12-12 23:21:14 main       INFO  Client:67 - user input: 6
 2018-12-12 23:21:14 main       INFO  Client:103 - Program ended
+2018-12-27 23:41:34 main       INFO  Client:73 - user input: 1
+2018-12-27 23:41:42 main       INFO  Client:78 - User input: 2018-11
+2018-12-27 23:43:24 main       INFO  Client:73 - user input: 1
+2018-12-27 23:43:28 main       INFO  Client:78 - User input: 2018-11
+2018-12-27 23:45:09 main       INFO  Client:73 - user input: 1
+2018-12-27 23:45:13 main       INFO  Client:78 - User input: 2018-11
+2018-12-27 23:46:02 main       INFO  Client:73 - user input: 1
+2018-12-27 23:46:06 main       INFO  Client:78 - User input: 2018-11
+2018-12-27 23:46:34 main       INFO  Client:73 - user input: 1
+2018-12-27 23:46:38 main       INFO  Client:78 - User input: 2018-11
+2018-12-27 23:47:27 main       INFO  Client:73 - user input: 1
+2018-12-27 23:47:30 main       INFO  Client:78 - User input: 2018-11
+2018-12-27 23:47:49 main       INFO  Client:73 - user input: 1
+2018-12-27 23:47:52 main       INFO  Client:78 - User input: 2018-11
+2018-12-27 23:49:47 main       INFO  Client:73 - user input: 1
+2018-12-27 23:49:49 main       INFO  Client:78 - User input: 2018-11
+2018-12-27 23:51:21 main       INFO  Client:73 - user input: 1
+2018-12-27 23:51:23 main       INFO  Client:78 - User input: 2018-11
+2018-12-27 23:53:23 main       INFO  Client:73 - user input: 1
+2018-12-27 23:53:26 main       INFO  Client:78 - User input: 2018-11
+2018-12-27 23:54:48 main       INFO  Client:73 - user input: 1
+2018-12-27 23:54:52 main       INFO  Client:78 - User input: 2018-11-28
+2018-12-27 23:54:52 main       INFO  Client:225 - Matched records:
+2018-12-27 23:54:52 main       INFO  Client:230 - S D	2018-11-28 22:18:24	N	
+2018-12-27 23:54:52 main       INFO  Client:230 - F G	2018-11-28 22:18:24	N	
+2018-12-27 23:54:52 main       INFO  Client:230 - I N	2018-11-28 22:18:24	N	
+2018-12-27 23:54:52 main       INFO  Client:230 - T R	2018-11-28 22:18:24	N	
+2018-12-27 23:54:52 main       INFO  Client:230 - S D	2018-11-28 22:18:24	X	
+2018-12-27 23:54:52 main       INFO  Client:230 - F G	2018-11-28 22:18:24	X	
+2018-12-27 23:54:52 main       INFO  Client:230 - I N	2018-11-28 22:18:24	X	
+2018-12-27 23:54:52 main       INFO  Client:230 - T R	2018-11-28 22:18:24	X	
+2018-12-27 23:55:00 main       INFO  Client:73 - user input: 1
+2018-12-27 23:55:03 main       INFO  Client:78 - User input: 2018-11
+2018-12-27 23:56:05 main       INFO  Client:73 - user input: 1
+2018-12-27 23:56:08 main       INFO  Client:78 - User input: 2018-11
+2018-12-27 23:56:08 main       INFO  Client:225 - Matched records:
+2018-12-27 23:56:08 main       INFO  Client:230 - S D	2018-11-28 22:18:24	N	
+2018-12-27 23:56:08 main       INFO  Client:230 - F G	2018-11-28 22:18:24	N	
+2018-12-27 23:56:08 main       INFO  Client:230 - I N	2018-11-28 22:18:24	N	
+2018-12-27 23:56:08 main       INFO  Client:230 - T R	2018-11-28 22:18:24	N	
+2018-12-27 23:56:08 main       INFO  Client:230 - S D	2018-11-28 22:18:24	X	
+2018-12-27 23:56:08 main       INFO  Client:230 - F G	2018-11-28 22:18:24	X	
+2018-12-27 23:56:08 main       INFO  Client:230 - I N	2018-11-28 22:18:24	X	
+2018-12-27 23:56:08 main       INFO  Client:230 - T R	2018-11-28 22:18:24	X	
