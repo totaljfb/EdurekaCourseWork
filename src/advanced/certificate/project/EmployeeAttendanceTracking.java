@@ -32,6 +32,7 @@ public class EmployeeAttendanceTracking {
 	private static final DateTimeFormatter formatter2 = DateTimeFormatter.ISO_LOCAL_DATE;
 	private static List<String> input_list = new ArrayList<>();
 	private static String origin_input = null;
+	private static String employee_name = null;
 	private static final SimpleDateFormat sdf1 = new SimpleDateFormat("yyyy-MM-dd");
 	private static final SimpleDateFormat sdf2 = new SimpleDateFormat("yyyy-MM");
 	
@@ -96,10 +97,17 @@ public class EmployeeAttendanceTracking {
 						logger.info("User input: " + origin_input);
 						if(origin_input.contains(",") && origin_input.split(",").length == 2) {
 							String s[] = origin_input.split(",");
-							input_list.clear();
-							input_list.add(s[0].trim());
-							input_list.add(s[1].trim());
-							//go_query(2, conn, input_list, origin_input);
+							employee_name = s[1].trim();
+							if(s[0].trim().split("-").length == 2) {
+								Date date = sdf2.parse(s[0].trim());
+								go_query(conn, s[0].trim(), "2month");
+							}else if(s[0].trim().split("-").length == 3) {
+								Date date = sdf1.parse(s[0].trim());
+								go_query(conn, s[0].trim(), "2day");
+							}else {
+								logger.info("Wrong input, program ended");
+								System.exit(-1);
+							}
 						}
 						else {
 							logger.info("Wrong input format, please try again");
@@ -144,6 +152,9 @@ public class EmployeeAttendanceTracking {
 						break;
 				case 5: System.out.println(menu_selection);
 						break;
+				case 6: System.out.println(menu_selection);
+						logger.info("Program ended");
+						System.exit(-1);
 				default: System.out.println("Invalid selection");
 						break;
 				}
@@ -188,23 +199,26 @@ public class EmployeeAttendanceTracking {
 		case "2day":sql = basic_sql + "and time between ? and ?" + " and emp_name = ?";  
 					try {
 						pstmt = conn.prepareStatement(sql);
-						pstmt.setString(1, input_list.get(0));
-						pstmt.setString(2, input_list.get(0) + " 23:59:59");
-						pstmt.setString(3, input_list.get(1));
+						pstmt.setString(1, input_date);
+						pstmt.setString(2, input_date + " 23:59:59");
+						pstmt.setString(3, employee_name);
 						execute_sql(pstmt); 
 					} catch (SQLException e) {
 						e.printStackTrace();
 					}
+					//when finish, reset the golbal employee_name
+					employee_name = null;
 					break;
 		case "2month":sql = basic_sql + "and time like ?" + " and emp_name = ?";
 		  try {
 			  pstmt = conn.prepareStatement(sql);
-			  pstmt.setString(1, input_list.get(0) + "%");
-			  pstmt.setString(2, input_list.get(1));
+			  pstmt.setString(1, input_date + "%");
+			  pstmt.setString(2, employee_name);
 			  execute_sql(pstmt); 
 		  } catch (SQLException e) {
 			  e.printStackTrace();
 			}
+		//when finish, reset the golbal employee_name
 		break;
 		default: System.exit(-1);
 		}
