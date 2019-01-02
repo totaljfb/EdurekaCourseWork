@@ -12,7 +12,8 @@ public class CalendarTest {
 		sdf2.setLenient(false);
 		try {
 			System.out.println(sdf1.parse("2018-11-11"));
-			System.out.println(sdf2.parse("2018-13"));
+			System.out.println(sdf1.format(sdf1.parse("2018-11-11")));
+			//System.out.println(sdf2.parse("2018-13"));
 		} catch (ParseException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

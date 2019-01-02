@@ -124,17 +124,14 @@ public class EmployeeAttendanceTracking {
 							String s[] = origin_input.trim().split(",");
 							try {
 								if(s[2].trim().equals("week")) {
-									SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 									Calendar cal = Calendar.getInstance();
 									cal.setWeekDate(Integer.parseInt(s[0].trim()), Integer.parseInt(s[1].trim()), 1);
-									converted_date = sdf.format(cal.getTime()); 
-									input_list.clear();
-									input_list.add(converted_date);
+									converted_date = sdf1.format(cal.getTime()); 
+									go_query(conn, sdf1.format(converted_date), "3week");
 								}
 								else if(s[2].trim().equals("month")) {
 									converted_date = s[0].trim() + "-" + s[1].trim();
-									input_list.clear();
-									input_list.add(converted_date);
+									go_query(conn, converted_date, "3month");
 								}
 								else {
 									logger.info("Wrong input format, please try again");
@@ -210,16 +207,18 @@ public class EmployeeAttendanceTracking {
 					employee_name = null;
 					break;
 		case "2month":sql = basic_sql + "and time like ?" + " and emp_name = ?";
-		  try {
-			  pstmt = conn.prepareStatement(sql);
-			  pstmt.setString(1, input_date + "%");
-			  pstmt.setString(2, employee_name);
-			  execute_sql(pstmt); 
-		  } catch (SQLException e) {
-			  e.printStackTrace();
-			}
-		//when finish, reset the golbal employee_name
-		break;
+					  try {
+						  pstmt = conn.prepareStatement(sql);
+						  pstmt.setString(1, input_date + "%");
+						  pstmt.setString(2, employee_name);
+						  execute_sql(pstmt); 
+					  } catch (SQLException e) {
+						  e.printStackTrace();
+						}
+					  //when finish, reset the golbal employee_name
+					  break;
+		case "3week": sql = basic_sql + "where hour(abs(timediff(check_out, check_in))) < 8";
+		case "3month": 
 		default: System.exit(-1);
 		}
 	}	
