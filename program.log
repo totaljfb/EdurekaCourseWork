@@ -587,3 +587,186 @@ q
 2018-12-30 23:47:33 main       INFO  Client:244 - T R	2018-11-28 22:18:24	X	
 2018-12-30 23:47:43 main       INFO  Client:74 - user input: 6
 2018-12-30 23:47:43 main       INFO  Client:156 - Program ended
+2019-01-04 11:27:33 main       INFO  EmployeeAttendanceTracking:71 - user input: 1
+2019-01-04 11:27:45 main       INFO  EmployeeAttendanceTracking:76 - User input: 2018-11
+2019-01-04 11:27:45 main       INFO  EmployeeAttendanceTracking:235 - Matched records:
+2019-01-04 11:27:45 main       INFO  EmployeeAttendanceTracking:240 - S D	2018-11-28 09:09:09	N	
+2019-01-04 11:27:45 main       INFO  EmployeeAttendanceTracking:240 - F G	2018-11-28 08:35:12	N	
+2019-01-04 11:27:45 main       INFO  EmployeeAttendanceTracking:240 - I N	2018-11-28 08:11:19	N	
+2019-01-04 11:27:45 main       INFO  EmployeeAttendanceTracking:240 - T R	2018-11-28 08:44:23	N	
+2019-01-04 11:27:45 main       INFO  EmployeeAttendanceTracking:240 - F G	2018-11-23 09:41:03	N	
+2019-01-04 11:27:45 main       INFO  EmployeeAttendanceTracking:240 - T R	2018-11-23 09:35:13	N	
+2019-01-04 11:27:45 main       INFO  EmployeeAttendanceTracking:240 - S D	2018-11-28 17:13:22	X	
+2019-01-04 11:27:45 main       INFO  EmployeeAttendanceTracking:240 - F G	2018-11-28 18:55:10	X	
+2019-01-04 11:27:45 main       INFO  EmployeeAttendanceTracking:240 - I N	2018-11-28 17:43:11	X	
+2019-01-04 11:27:45 main       INFO  EmployeeAttendanceTracking:240 - T R	2018-11-28 18:31:23	X	
+2019-01-04 11:27:45 main       INFO  EmployeeAttendanceTracking:240 - F G	2018-11-23 15:55:33	X	
+2019-01-04 11:27:45 main       INFO  EmployeeAttendanceTracking:240 - T R	2018-11-23 19:22:06	X	
+2019-01-04 11:52:43 main       INFO  EmployeeAttendanceTracking:71 - user input: 6
+2019-01-04 11:52:43 main       INFO  EmployeeAttendanceTracking:150 - Program ended
+2019-01-04 15:19:19 main       INFO  EmployeeAttendanceTracking:66 - user input: 3
+2019-01-04 15:20:24 main       INFO  EmployeeAttendanceTracking:113 - User input: 2018, 47
+2019-01-04 15:20:24 main       INFO  EmployeeAttendanceTracking:136 - Wrong input format, please try again
+2019-01-04 15:20:36 main       INFO  EmployeeAttendanceTracking:66 - user input: 3
+2019-01-04 15:20:44 main       INFO  EmployeeAttendanceTracking:113 - User input: 2018, 47, week
+2019-01-04 15:21:28 main       INFO  EmployeeAttendanceTracking:66 - user input: 3
+2019-01-04 15:21:37 main       INFO  EmployeeAttendanceTracking:113 - User input: 2018, 47, week
+2019-01-04 15:24:51 main       INFO  EmployeeAttendanceTracking:66 - user input: 3
+2019-01-04 15:24:57 main       INFO  EmployeeAttendanceTracking:113 - User input: 2018, 47, week
+2019-01-04 15:35:35 main       INFO  EmployeeAttendanceTracking:66 - user input: 1
+2019-01-04 15:35:40 main       INFO  EmployeeAttendanceTracking:71 - User input: dfdf
+2019-01-04 15:35:40 main       INFO  EmployeeAttendanceTracking:79 - Wrong input, program ended
+2019-01-04 15:35:47 main       INFO  EmployeeAttendanceTracking:66 - user input: 3
+2019-01-04 15:35:55 main       INFO  EmployeeAttendanceTracking:113 - User input: 2018, 47, 1
+2019-01-04 15:35:55 main       INFO  EmployeeAttendanceTracking:129 - Wrong input format, please try again
+2019-01-04 15:36:59 main       INFO  EmployeeAttendanceTracking:66 - user input: 3
+2019-01-04 15:37:06 main       INFO  EmployeeAttendanceTracking:113 - User input: 2018, 47, 1
+2019-01-04 15:37:22 main       INFO  EmployeeAttendanceTracking:66 - user input: 3
+2019-01-04 15:37:27 main       INFO  EmployeeAttendanceTracking:113 - User input: 2018, 47, week
+2019-01-04 15:38:32 main       INFO  EmployeeAttendanceTracking:66 - user input: 3
+2019-01-04 15:38:38 main       INFO  EmployeeAttendanceTracking:113 - User input: 2018, 47, week
+2019-01-04 15:40:19 main       INFO  EmployeeAttendanceTracking:66 - user input: 3
+2019-01-04 15:40:24 main       INFO  EmployeeAttendanceTracking:113 - User input: 2018, 47, week
+2019-01-04 15:40:24 main       INFO  EmployeeAttendanceTracking:237 - No matched records found.
+2019-01-04 15:55:31 main       INFO  EmployeeAttendanceTracking:66 - user input: 3
+2019-01-04 15:55:39 main       INFO  EmployeeAttendanceTracking:113 - User input: 2018, 47, week
+2019-01-04 15:55:40 main       INFO  EmployeeAttendanceTracking:243 - Matched records:
+2019-01-04 15:55:40 main       INFO  EmployeeAttendanceTracking:248 - F G	adfehd123497	2018-11-23 09:41:03	N	2018-11-23 15:55:33	X	
+2019-01-04 15:59:18 main       INFO  EmployeeAttendanceTracking:66 - user input: 3
+2019-01-04 15:59:28 main       INFO  EmployeeAttendanceTracking:113 - User input: 2018, 47, week
+2019-01-04 15:59:28 main       INFO  EmployeeAttendanceTracking:241 - Matched records:
+2019-01-04 15:59:28 main       INFO  EmployeeAttendanceTracking:246 - F G	adfehd123497	2018-11-23 09:41:03	N	2018-11-23 15:55:33	X	
+2019-01-04 15:59:30 main       INFO  EmployeeAttendanceTracking:66 - user input: 3
+2019-01-04 15:59:36 main       INFO  EmployeeAttendanceTracking:113 - User input: 2018, 48, week
+2019-01-04 15:59:36 main       INFO  EmployeeAttendanceTracking:241 - Matched records:
+2019-01-04 15:59:36 main       INFO  EmployeeAttendanceTracking:246 - S D	ahhhhd123497	2018-11-28 09:09:09	N	2018-11-28 17:13:22	X	
+2019-01-04 16:15:40 main       INFO  EmployeeAttendanceTracking:66 - user input: 3
+2019-01-04 16:15:48 main       INFO  EmployeeAttendanceTracking:113 - User input: 2018, 11, month
+2019-01-04 16:16:06 main       INFO  EmployeeAttendanceTracking:66 - user input: 3
+2019-01-04 16:16:11 main       INFO  EmployeeAttendanceTracking:113 - User input: 2018, 11, month
+2019-01-04 16:16:11 main       INFO  EmployeeAttendanceTracking:249 - Matched records:
+2019-01-04 16:16:11 main       INFO  EmployeeAttendanceTracking:254 - S D	ahhhhd123497	2018-11-28 09:09:09	N	2018-11-28 17:13:22	X	
+2019-01-04 16:16:11 main       INFO  EmployeeAttendanceTracking:254 - F G	adfehd123497	2018-11-23 09:41:03	N	2018-11-23 15:55:33	X	
+2019-01-04 17:15:23 main       INFO  EmployeeAttendanceTracking:66 - user input: 3
+2019-01-04 17:15:30 main       INFO  EmployeeAttendanceTracking:113 - User input: 2018, 47, week
+2019-01-04 17:15:30 main       INFO  EmployeeAttendanceTracking:252 - Matched records:
+2019-01-04 17:15:30 main       INFO  EmployeeAttendanceTracking:259 - F G	adfehd123497	2018-11-23 09:41:03	N	2018-11-23 15:55:33	X	
+2019-01-04 17:15:30 main       INFO  EmployeeAttendanceTracking:262 - Please input 'y' to save the query result:
+2019-01-04 17:15:37 main       INFO  EmployeeAttendanceTracking:267 - Query result saved as query_result.csv file
+2019-01-04 17:16:25 main       INFO  EmployeeAttendanceTracking:66 - user input: 3
+2019-01-04 17:16:31 main       INFO  EmployeeAttendanceTracking:113 - User input: 2018, 47, week
+2019-01-04 17:16:31 main       INFO  EmployeeAttendanceTracking:252 - Matched records:
+2019-01-04 17:16:31 main       INFO  EmployeeAttendanceTracking:259 - F G	adfehd123497	2018-11-23 09:41:03	N	2018-11-23 15:55:33	X	
+2019-01-04 17:16:31 main       INFO  EmployeeAttendanceTracking:262 - Please input 'y' to save the query result:
+2019-01-04 17:16:32 main       INFO  EmployeeAttendanceTracking:265 - user input: y
+2019-01-04 17:16:32 main       INFO  EmployeeAttendanceTracking:268 - Query result saved as query_result.csv file
+2019-01-04 17:17:16 main       INFO  EmployeeAttendanceTracking:66 - user input: 3
+2019-01-04 17:17:22 main       INFO  EmployeeAttendanceTracking:113 - User input: 2018, 47, week
+2019-01-04 17:17:27 main       INFO  EmployeeAttendanceTracking:252 - Matched records:
+2019-01-04 17:17:27 main       INFO  EmployeeAttendanceTracking:259 - F G	adfehd123497	2018-11-23 09:41:03	N	2018-11-23 15:55:33	X	
+2019-01-04 17:17:27 main       INFO  EmployeeAttendanceTracking:262 - Please input 'y' to save the query result:
+2019-01-04 17:17:47 main       INFO  EmployeeAttendanceTracking:265 - user input: y
+2019-01-04 17:17:55 main       INFO  EmployeeAttendanceTracking:268 - Query result saved as query_result.csv file
+2019-01-04 17:19:43 main       INFO  EmployeeAttendanceTracking:66 - user input: 1
+2019-01-04 17:19:50 main       INFO  EmployeeAttendanceTracking:71 - User input: 2018-11
+2019-01-04 17:19:51 main       INFO  EmployeeAttendanceTracking:252 - Matched records:
+2019-01-04 17:19:51 main       INFO  EmployeeAttendanceTracking:259 - S D	2018-11-28 09:09:09	N	
+2019-01-04 17:19:51 main       INFO  EmployeeAttendanceTracking:259 - F G	2018-11-28 08:35:12	N	
+2019-01-04 17:19:51 main       INFO  EmployeeAttendanceTracking:259 - I N	2018-11-28 08:11:19	N	
+2019-01-04 17:19:51 main       INFO  EmployeeAttendanceTracking:259 - T R	2018-11-28 08:44:23	N	
+2019-01-04 17:19:51 main       INFO  EmployeeAttendanceTracking:259 - F G	2018-11-23 09:41:03	N	
+2019-01-04 17:19:51 main       INFO  EmployeeAttendanceTracking:259 - T R	2018-11-23 09:35:13	N	
+2019-01-04 17:19:51 main       INFO  EmployeeAttendanceTracking:259 - S D	2018-11-28 17:13:22	X	
+2019-01-04 17:19:51 main       INFO  EmployeeAttendanceTracking:259 - F G	2018-11-28 18:55:10	X	
+2019-01-04 17:19:51 main       INFO  EmployeeAttendanceTracking:259 - I N	2018-11-28 17:43:11	X	
+2019-01-04 17:19:51 main       INFO  EmployeeAttendanceTracking:259 - T R	2018-11-28 18:31:23	X	
+2019-01-04 17:19:51 main       INFO  EmployeeAttendanceTracking:259 - F G	2018-11-23 15:55:33	X	
+2019-01-04 17:19:51 main       INFO  EmployeeAttendanceTracking:259 - T R	2018-11-23 19:22:06	X	
+2019-01-04 17:19:51 main       INFO  EmployeeAttendanceTracking:262 - Please input 'y' to save the query result:
+2019-01-04 17:19:53 main       INFO  EmployeeAttendanceTracking:265 - user input: y
+2019-01-04 17:19:53 main       INFO  EmployeeAttendanceTracking:269 - Query result saved as query_result.csv file
+2019-01-04 17:21:25 main       INFO  EmployeeAttendanceTracking:66 - user input: 1
+2019-01-04 17:21:28 main       INFO  EmployeeAttendanceTracking:71 - User input: 2018-11
+2019-01-04 17:21:28 main       INFO  EmployeeAttendanceTracking:252 - Matched records:
+2019-01-04 17:21:28 main       INFO  EmployeeAttendanceTracking:259 - S D	2018-11-28 09:09:09	N	
+2019-01-04 17:21:28 main       INFO  EmployeeAttendanceTracking:259 - F G	2018-11-28 08:35:12	N	
+2019-01-04 17:21:28 main       INFO  EmployeeAttendanceTracking:259 - I N	2018-11-28 08:11:19	N	
+2019-01-04 17:21:28 main       INFO  EmployeeAttendanceTracking:259 - T R	2018-11-28 08:44:23	N	
+2019-01-04 17:21:28 main       INFO  EmployeeAttendanceTracking:259 - F G	2018-11-23 09:41:03	N	
+2019-01-04 17:21:28 main       INFO  EmployeeAttendanceTracking:259 - T R	2018-11-23 09:35:13	N	
+2019-01-04 17:21:28 main       INFO  EmployeeAttendanceTracking:259 - S D	2018-11-28 17:13:22	X	
+2019-01-04 17:21:28 main       INFO  EmployeeAttendanceTracking:259 - F G	2018-11-28 18:55:10	X	
+2019-01-04 17:21:28 main       INFO  EmployeeAttendanceTracking:259 - I N	2018-11-28 17:43:11	X	
+2019-01-04 17:21:28 main       INFO  EmployeeAttendanceTracking:259 - T R	2018-11-28 18:31:23	X	
+2019-01-04 17:21:28 main       INFO  EmployeeAttendanceTracking:259 - F G	2018-11-23 15:55:33	X	
+2019-01-04 17:21:28 main       INFO  EmployeeAttendanceTracking:259 - T R	2018-11-23 19:22:06	X	
+2019-01-04 17:21:28 main       INFO  EmployeeAttendanceTracking:262 - Please input 'y' to save the query result:
+2019-01-04 17:21:31 main       INFO  EmployeeAttendanceTracking:265 - user input: y
+2019-01-04 17:21:31 main       INFO  EmployeeAttendanceTracking:269 - Query result saved as query_result.csv file
+2019-01-04 17:21:45 main       INFO  EmployeeAttendanceTracking:66 - user input: 1
+2019-01-04 17:21:47 main       INFO  EmployeeAttendanceTracking:71 - User input: 2018-11
+2019-01-04 17:21:47 main       INFO  EmployeeAttendanceTracking:252 - Matched records:
+2019-01-04 17:21:47 main       INFO  EmployeeAttendanceTracking:259 - S D	2018-11-28 09:09:09	N	
+2019-01-04 17:21:47 main       INFO  EmployeeAttendanceTracking:259 - F G	2018-11-28 08:35:12	N	
+2019-01-04 17:21:47 main       INFO  EmployeeAttendanceTracking:259 - I N	2018-11-28 08:11:19	N	
+2019-01-04 17:21:47 main       INFO  EmployeeAttendanceTracking:259 - T R	2018-11-28 08:44:23	N	
+2019-01-04 17:21:47 main       INFO  EmployeeAttendanceTracking:259 - F G	2018-11-23 09:41:03	N	
+2019-01-04 17:21:47 main       INFO  EmployeeAttendanceTracking:259 - T R	2018-11-23 09:35:13	N	
+2019-01-04 17:21:47 main       INFO  EmployeeAttendanceTracking:259 - S D	2018-11-28 17:13:22	X	
+2019-01-04 17:21:47 main       INFO  EmployeeAttendanceTracking:259 - F G	2018-11-28 18:55:10	X	
+2019-01-04 17:21:47 main       INFO  EmployeeAttendanceTracking:259 - I N	2018-11-28 17:43:11	X	
+2019-01-04 17:21:47 main       INFO  EmployeeAttendanceTracking:259 - T R	2018-11-28 18:31:23	X	
+2019-01-04 17:21:47 main       INFO  EmployeeAttendanceTracking:259 - F G	2018-11-23 15:55:33	X	
+2019-01-04 17:21:47 main       INFO  EmployeeAttendanceTracking:259 - T R	2018-11-23 19:22:06	X	
+2019-01-04 17:22:05 main       INFO  EmployeeAttendanceTracking:66 - user input: 6
+2019-01-04 17:22:05 main       INFO  EmployeeAttendanceTracking:143 - Program ended
+2019-01-04 17:22:32 main       INFO  EmployeeAttendanceTracking:66 - user input: 1
+2019-01-04 17:22:37 main       INFO  EmployeeAttendanceTracking:71 - User input: 2018-11
+2019-01-04 17:22:37 main       INFO  EmployeeAttendanceTracking:252 - Matched records:
+2019-01-04 17:22:37 main       INFO  EmployeeAttendanceTracking:259 - S D	2018-11-28 09:09:09	N	
+2019-01-04 17:22:37 main       INFO  EmployeeAttendanceTracking:259 - F G	2018-11-28 08:35:12	N	
+2019-01-04 17:22:37 main       INFO  EmployeeAttendanceTracking:259 - I N	2018-11-28 08:11:19	N	
+2019-01-04 17:22:37 main       INFO  EmployeeAttendanceTracking:259 - T R	2018-11-28 08:44:23	N	
+2019-01-04 17:22:37 main       INFO  EmployeeAttendanceTracking:259 - F G	2018-11-23 09:41:03	N	
+2019-01-04 17:22:37 main       INFO  EmployeeAttendanceTracking:259 - T R	2018-11-23 09:35:13	N	
+2019-01-04 17:22:37 main       INFO  EmployeeAttendanceTracking:259 - S D	2018-11-28 17:13:22	X	
+2019-01-04 17:22:37 main       INFO  EmployeeAttendanceTracking:259 - F G	2018-11-28 18:55:10	X	
+2019-01-04 17:22:37 main       INFO  EmployeeAttendanceTracking:259 - I N	2018-11-28 17:43:11	X	
+2019-01-04 17:22:37 main       INFO  EmployeeAttendanceTracking:259 - T R	2018-11-28 18:31:23	X	
+2019-01-04 17:22:37 main       INFO  EmployeeAttendanceTracking:259 - F G	2018-11-23 15:55:33	X	
+2019-01-04 17:22:37 main       INFO  EmployeeAttendanceTracking:259 - T R	2018-11-23 19:22:06	X	
+2019-01-04 17:22:37 main       INFO  EmployeeAttendanceTracking:262 - Please input 'y' to save the query result:
+2019-01-04 17:22:38 main       INFO  EmployeeAttendanceTracking:265 - user input: y
+2019-01-04 17:22:38 main       INFO  EmployeeAttendanceTracking:269 - Query result saved as query_result.csv file
+2019-01-04 17:24:23 main       INFO  EmployeeAttendanceTracking:66 - user input: 1
+2019-01-04 17:24:25 main       INFO  EmployeeAttendanceTracking:71 - User input: 2018-11
+2019-01-04 17:24:25 main       INFO  EmployeeAttendanceTracking:252 - Matched records:
+2019-01-04 17:24:25 main       INFO  EmployeeAttendanceTracking:259 - S D	2018-11-28 09:09:09	N	
+2019-01-04 17:24:25 main       INFO  EmployeeAttendanceTracking:259 - F G	2018-11-28 08:35:12	N	
+2019-01-04 17:24:25 main       INFO  EmployeeAttendanceTracking:259 - I N	2018-11-28 08:11:19	N	
+2019-01-04 17:24:25 main       INFO  EmployeeAttendanceTracking:259 - T R	2018-11-28 08:44:23	N	
+2019-01-04 17:24:25 main       INFO  EmployeeAttendanceTracking:259 - F G	2018-11-23 09:41:03	N	
+2019-01-04 17:24:25 main       INFO  EmployeeAttendanceTracking:259 - T R	2018-11-23 09:35:13	N	
+2019-01-04 17:24:25 main       INFO  EmployeeAttendanceTracking:259 - S D	2018-11-28 17:13:22	X	
+2019-01-04 17:24:25 main       INFO  EmployeeAttendanceTracking:259 - F G	2018-11-28 18:55:10	X	
+2019-01-04 17:24:25 main       INFO  EmployeeAttendanceTracking:259 - I N	2018-11-28 17:43:11	X	
+2019-01-04 17:24:25 main       INFO  EmployeeAttendanceTracking:259 - T R	2018-11-28 18:31:23	X	
+2019-01-04 17:24:25 main       INFO  EmployeeAttendanceTracking:259 - F G	2018-11-23 15:55:33	X	
+2019-01-04 17:24:25 main       INFO  EmployeeAttendanceTracking:259 - T R	2018-11-23 19:22:06	X	
+2019-01-04 17:24:33 main       INFO  EmployeeAttendanceTracking:66 - user input: 6
+2019-01-04 17:24:33 main       INFO  EmployeeAttendanceTracking:143 - Program ended
+2019-01-04 17:25:00 main       INFO  EmployeeAttendanceTracking:66 - user input: 1
+2019-01-04 17:25:04 main       INFO  EmployeeAttendanceTracking:71 - User input: 2018-11
+2019-01-04 17:25:04 main       INFO  EmployeeAttendanceTracking:252 - Matched records:
+2019-01-04 17:25:04 main       INFO  EmployeeAttendanceTracking:259 - S D	2018-11-28 09:09:09	N	
+2019-01-04 17:25:11 main       INFO  EmployeeAttendanceTracking:259 - F G	2018-11-28 08:35:12	N	
+2019-01-04 17:25:15 main       INFO  EmployeeAttendanceTracking:259 - I N	2018-11-28 08:11:19	N	
+2019-01-04 17:25:18 main       INFO  EmployeeAttendanceTracking:259 - T R	2018-11-28 08:44:23	N	
+2019-01-04 17:25:20 main       INFO  EmployeeAttendanceTracking:259 - F G	2018-11-23 09:41:03	N	
+2019-01-04 17:25:22 main       INFO  EmployeeAttendanceTracking:259 - T R	2018-11-23 09:35:13	N	
+2019-01-04 17:25:23 main       INFO  EmployeeAttendanceTracking:259 - S D	2018-11-28 17:13:22	X	
+2019-01-04 17:25:25 main       INFO  EmployeeAttendanceTracking:259 - F G	2018-11-28 18:55:10	X	
+2019-01-04 17:25:27 main       INFO  EmployeeAttendanceTracking:259 - I N	2018-11-28 17:43:11	X	
+2019-01-04 17:25:29 main       INFO  EmployeeAttendanceTracking:259 - T R	2018-11-28 18:31:23	X	
+2019-01-04 17:25:29 main       INFO  EmployeeAttendanceTracking:259 - F G	2018-11-23 15:55:33	X	
+2019-01-04 17:25:33 main       INFO  EmployeeAttendanceTracking:259 - T R	2018-11-23 19:22:06	X	

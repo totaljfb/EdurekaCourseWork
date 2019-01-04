@@ -2,7 +2,9 @@ package advanced.certificate.project;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -10,33 +12,23 @@ import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.text.SimpleDateFormat;
-import java.time.format.DateTimeFormatter;
-import java.time.format.DateTimeParseException;
-import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Date;
 import java.util.InputMismatchException;
-import java.util.List;
 import java.util.Properties;
 import java.util.Scanner;
 import org.apache.log4j.Logger;
-import org.apache.logging.log4j.core.parser.ParseException;
 
-import module9.tcp.sockets.Client;
 
 public class EmployeeAttendanceTracking {
 
-	private static final Logger logger = Logger.getLogger(Client.class.getName());
+	private static final Logger logger = Logger.getLogger(EmployeeAttendanceTracking.class.getName());
 	private static final String CONN_FILE = "resources/mysql.properties";
-	private static final DateTimeFormatter formatter1 = DateTimeFormatter.ofPattern("yyyy-mm");
-	private static final DateTimeFormatter formatter2 = DateTimeFormatter.ISO_LOCAL_DATE;
-	private static List<String> input_list = new ArrayList<>();
 	private static String origin_input = null;
 	private static String employee_name = null;
 	private static final SimpleDateFormat sdf1 = new SimpleDateFormat("yyyy-MM-dd");
 	private static final SimpleDateFormat sdf2 = new SimpleDateFormat("yyyy-MM");
 	
-	public static void main(String[] args) throws java.text.ParseException {
+	public static void main(String[] args) throws java.text.ParseException, FileNotFoundException {
 		
 		Properties p = new Properties();
 		//load the property file
@@ -124,10 +116,9 @@ public class EmployeeAttendanceTracking {
 							String s[] = origin_input.trim().split(",");
 							try {
 								if(s[2].trim().equals("week")) {
-									Calendar cal = Calendar.getInstance();
-									cal.setWeekDate(Integer.parseInt(s[0].trim()), Integer.parseInt(s[1].trim()), 1);
-									converted_date = sdf1.format(cal.getTime()); 
-									go_query(conn, sdf1.format(converted_date), "3week");
+									//here use mysql yearweek function to query
+									converted_date = s[0].trim()+ s[1].trim();
+									go_query(conn, converted_date, "3week");
 								}
 								else if(s[2].trim().equals("month")) {
 									converted_date = s[0].trim() + "-" + s[1].trim();
@@ -139,7 +130,6 @@ public class EmployeeAttendanceTracking {
 							}catch(Exception e){
 								e.printStackTrace();
 							}
-							//go_query(3, conn, input_list, origin_input);
 						}
 						else {
 							logger.info("Wrong input format, please try again");
@@ -166,10 +156,16 @@ public class EmployeeAttendanceTracking {
 	}
 	
 	//prepare the sql query	
-	public static void go_query(Connection conn, String input_date, String case_op) {
+	public static void go_query(Connection conn, String input_date, String case_op) throws FileNotFoundException {
 		String basic_sql = "select emp_name, time, code FROM test.attendance_log AS a, test.emp_access_map AS b, test.emp AS c  "
 							+ "where a.card_id = b.card_id "
 							+ "and b.emp_id = c.emp_id ";
+		String q3_sql = "select emp_name, a.card_id, a.time checkin_time, a.code checkin_code, b.time checkout_time, b.code checkout_code\r\n" + 
+						"from attendance_log as a\r\n" + 
+						"inner join emp_access_map on a.card_id = emp_access_map.card_id \r\n" + 
+						"inner join emp on emp.emp_id = emp_access_map.emp_id\r\n" + 
+						"inner join attendance_log as b on a.card_id = b.card_id and date(a.time) = date(b.time)\r\n" + 
+						"where a.code = 'N' and b.code = 'X' and hour(abs(timediff(b.time,a.time))) < 8.5 ";
 		PreparedStatement pstmt = null;
 		String sql = null;
 		switch(case_op) {
@@ -216,15 +212,31 @@ public class EmployeeAttendanceTracking {
 						  e.printStackTrace();
 						}
 					  //when finish, reset the golbal employee_name
+					  employee_name = null;
 					  break;
-		case "3week": sql = basic_sql + "where hour(abs(timediff(check_out, check_in))) < 8";
-		case "3month": 
+		case "3week":sql = q3_sql + "and yearweek(date(a.time),1) = ?";
+					try {
+						  pstmt = conn.prepareStatement(sql);
+						  pstmt.setString(1, input_date);
+						  execute_sql(pstmt); 
+					  } catch (SQLException e) {
+						  e.printStackTrace();
+						}
+					  break;						
+		case "3month":sql = q3_sql + "and a.time like ? ";
+					  try {
+						  pstmt = conn.prepareStatement(sql);
+						  pstmt.setString(1, input_date + "%");
+						  execute_sql(pstmt); 
+					  } catch (SQLException e) {
+						  e.printStackTrace();
+						} 
+					  break;
 		default: System.exit(-1);
 		}
 	}	
-	
 	//execute query
-	public static void execute_sql(PreparedStatement pstmt) throws SQLException {
+	public static void execute_sql(PreparedStatement pstmt) throws SQLException, FileNotFoundException {
 		ResultSet rs = pstmt.executeQuery();
 		ResultSetMetaData rsmd = rs.getMetaData();
 		String single_row = "";
@@ -233,18 +245,32 @@ public class EmployeeAttendanceTracking {
 			logger.info("No matched records found.");
 		//display matched result
 		}else {
+			 PrintWriter pw = new PrintWriter(new File("query_result.csv"));
+		     StringBuilder sb = new StringBuilder();
 			//move cursor to the front, because !rs.next() has been executed once
 			rs.beforeFirst();
 			logger.info("Matched records:");
 			while(rs.next()){
 				for(int i = 0; i < rsmd.getColumnCount(); i++) {
 					single_row += rs.getString(i+1) + "\t";
+					sb.append(rs.getString(i+1));
 				}
+				sb.append('\n');
 				logger.info(single_row);
 				single_row = "";
 				}
+//			logger.info("Please input 'y' to save the query result:");
+//			Scanner sc1 = new Scanner(System.in);
+//			String save_input = sc1.nextLine();
+//			logger.info("user input: " + save_input);
+//			if(save_input.trim().toUpperCase().equals("Y")) {
+//				pw.write(sb.toString());
+//				pw.write(",");
+//				logger.info("Query result saved as query_result.csv file");
+//			}
+//			pw.close();
+//			sc1.close();
 		}
-		
 	}
 	
 	
