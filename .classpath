@@ -3,7 +3,9 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_192"/>
-	<classpathentry kind="lib" path="C:/Users/Jason.Zhang/EdurekaCourseWork/libs/log4j-1.2.17.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Jason.Zhang/EdurekaCourseWork/libs/mysql-connector-java-8.0.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jason Zhang/MyJava/libs/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jason Zhang/MyJava/libs/mysql-connector-java-8.0.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jason Zhang/MyJava/libs/log4j-api-2.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Jason Zhang/MyJava/libs/log4j-core-2.11.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
