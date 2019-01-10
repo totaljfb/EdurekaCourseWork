@@ -150,7 +150,7 @@ public class EmployeeAttendanceTracking {
 	public static void go_query(Connection conn, String input_date, String case_op) throws FileNotFoundException {
 		String basic_sql = "select emp_name, time, code FROM test.attendance_log AS a, test.emp_access_map AS b, test.emp AS c  "
 				+ "where a.card_id = b.card_id " + "and b.emp_id = c.emp_id ";
-		String q3_sql = "select emp_name, a.card_id, a.time checkin_time, a.code checkin_code, b.time checkout_time, b.code checkout_code\r\n"
+		String q3_sql = "select emp_name, a.card_id, a.time checkin_time, a.code checkin_code, b.time checkout_time, b.code checkout_code, timediff(b.time, a.time) duration\r\n"
 				+ "from attendance_log as a\r\n"
 				+ "inner join emp_access_map on a.card_id = emp_access_map.card_id \r\n"
 				+ "inner join emp on emp.emp_id = emp_access_map.emp_id\r\n"
@@ -243,7 +243,8 @@ public class EmployeeAttendanceTracking {
 			logger.info("No matched records found.");
 			// display matched result
 		} else {
-			PrintWriter pw = new PrintWriter(new File("query_result.csv"));
+			File file = new File("query_result.csv");
+			PrintWriter pw = new PrintWriter(file);
 			StringBuilder sb = new StringBuilder();
 			// move cursor to the front, because !rs.next() has been executed once
 			//write the column name for the first row
@@ -270,18 +271,20 @@ public class EmployeeAttendanceTracking {
 				logger.info(single_row);
 				single_row = "";
 			}
-			logger.info("Do you want to save the query reslut? Press 'y' to save:");
+			logger.info("Do you want to save the query reslut? Press 'y' to save, any other key to skip save file");
 			Scanner sc2 = new Scanner(System.in);
 			String save_input = sc2.nextLine();
 			logger.info("user input: " + save_input);
 			if (save_input.trim().toUpperCase().equals("Y")) {
 				pw.write(sb.toString());
 				logger.info("Query result saved as query_result.csv file");
+				pw.close();
 			}
 			else {
-				//delete the csv file
+				//close input stream before deleting the csv file
+				pw.close();
+				file.delete();
 			}
-			pw.close();
 			sc2.close();
 		}
 	}

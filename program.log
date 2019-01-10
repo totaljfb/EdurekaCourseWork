@@ -1225,3 +1225,103 @@ q
 2019-01-07 00:57:13 main       INFO  EmployeeAttendanceTracking:274 - user input: y
 2019-01-07 00:57:13 main       INFO  EmployeeAttendanceTracking:277 - Query result saved as query_result.csv file
 2019-01-07 00:57:13 main       INFO  EmployeeAttendanceTracking:139 - Program ended
+2019-01-09 22:46:56 main       INFO  EmployeeAttendanceTracking:59 - user input: 3
+2019-01-09 22:47:13 main       INFO  EmployeeAttendanceTracking:103 - User input: 2018, 47, week
+2019-01-09 22:47:13 main       INFO  EmployeeAttendanceTracking:243 - No matched records found.
+2019-01-09 22:47:13 main       INFO  EmployeeAttendanceTracking:139 - Program ended
+2019-01-09 22:48:06 main       INFO  EmployeeAttendanceTracking:59 - user input: 3
+2019-01-09 22:48:13 main       INFO  EmployeeAttendanceTracking:103 - User input: 2018, 48, week
+2019-01-09 22:48:13 main       INFO  EmployeeAttendanceTracking:260 - Matched records:
+2019-01-09 22:48:13 main       INFO  EmployeeAttendanceTracking:270 - T R	ah345fgo8449	2018-11-28 09:27:31	N	2018-11-28 15:32:14	X	06:04:43	
+2019-01-09 22:48:13 main       INFO  EmployeeAttendanceTracking:270 - T R	ah345fgo8449	2018-11-28 08:07:55	N	2018-11-28 15:32:14	X	07:24:19	
+2019-01-09 22:48:13 main       INFO  EmployeeAttendanceTracking:273 - Do you want to save the query reslut? Press 'y' to save:
+2019-01-09 22:48:18 main       INFO  EmployeeAttendanceTracking:276 - user input: y
+2019-01-09 22:48:18 main       INFO  EmployeeAttendanceTracking:279 - Query result saved as query_result.csv file
+2019-01-09 22:48:18 main       INFO  EmployeeAttendanceTracking:139 - Program ended
+2019-01-09 22:49:47 main       INFO  EmployeeAttendanceTracking:59 - user input: 3
+2019-01-09 22:49:53 main       INFO  EmployeeAttendanceTracking:103 - User input: 2018, 48, week
+2019-01-09 22:49:53 main       INFO  EmployeeAttendanceTracking:260 - Matched records:
+2019-01-09 22:49:53 main       INFO  EmployeeAttendanceTracking:270 - T R	ah345fgo8449	2018-11-28 09:27:31	N	2018-11-28 15:32:14	X	06:04:43	
+2019-01-09 22:49:53 main       INFO  EmployeeAttendanceTracking:270 - T R	ah345fgo8449	2018-11-28 08:07:55	N	2018-11-28 15:32:14	X	07:24:19	
+2019-01-09 22:49:53 main       INFO  EmployeeAttendanceTracking:273 - Do you want to save the query reslut? Press 'y' to save:
+2019-01-09 22:49:55 main       INFO  EmployeeAttendanceTracking:276 - user input: n
+2019-01-09 22:49:55 main       INFO  EmployeeAttendanceTracking:139 - Program ended
+2019-01-09 22:51:09 main       INFO  EmployeeAttendanceTracking:59 - user input: 3
+2019-01-09 22:51:16 main       INFO  EmployeeAttendanceTracking:103 - User input: 2018, 48, week
+2019-01-09 22:51:16 main       INFO  EmployeeAttendanceTracking:260 - Matched records:
+2019-01-09 22:51:16 main       INFO  EmployeeAttendanceTracking:270 - T R	ah345fgo8449	2018-11-28 09:27:31	N	2018-11-28 15:32:14	X	06:04:43	
+2019-01-09 22:51:16 main       INFO  EmployeeAttendanceTracking:270 - T R	ah345fgo8449	2018-11-28 08:07:55	N	2018-11-28 15:32:14	X	07:24:19	
+2019-01-09 22:51:16 main       INFO  EmployeeAttendanceTracking:273 - Do you want to save the query reslut? Press 'y' to save:
+2019-01-09 22:51:19 main       INFO  EmployeeAttendanceTracking:276 - user input: n
+2019-01-09 22:51:19 main       INFO  EmployeeAttendanceTracking:139 - Program ended
+2019-01-09 22:54:14 main       INFO  EmployeeAttendanceTracking:59 - user input: 3
+2019-01-09 22:54:20 main       INFO  EmployeeAttendanceTracking:103 - User input: 2018, 48, week
+2019-01-09 22:54:20 main       INFO  EmployeeAttendanceTracking:261 - Matched records:
+2019-01-09 22:54:20 main       INFO  EmployeeAttendanceTracking:271 - T R	ah345fgo8449	2018-11-28 09:27:31	N	2018-11-28 15:32:14	X	06:04:43	
+2019-01-09 22:54:20 main       INFO  EmployeeAttendanceTracking:271 - T R	ah345fgo8449	2018-11-28 08:07:55	N	2018-11-28 15:32:14	X	07:24:19	
+2019-01-09 22:54:20 main       INFO  EmployeeAttendanceTracking:274 - Do you want to save the query reslut? Press 'y' to save:
+2019-01-09 22:54:22 main       INFO  EmployeeAttendanceTracking:277 - user input: y
+2019-01-09 22:54:22 main       INFO  EmployeeAttendanceTracking:280 - Query result saved as query_result.csv file
+2019-01-09 22:54:22 main       INFO  EmployeeAttendanceTracking:139 - Program ended
+2019-01-09 22:54:38 main       INFO  EmployeeAttendanceTracking:59 - user input: 3
+2019-01-09 22:54:44 main       INFO  EmployeeAttendanceTracking:103 - User input: 2018, 48, week
+2019-01-09 22:54:44 main       INFO  EmployeeAttendanceTracking:261 - Matched records:
+2019-01-09 22:54:44 main       INFO  EmployeeAttendanceTracking:271 - T R	ah345fgo8449	2018-11-28 09:27:31	N	2018-11-28 15:32:14	X	06:04:43	
+2019-01-09 22:54:44 main       INFO  EmployeeAttendanceTracking:271 - T R	ah345fgo8449	2018-11-28 08:07:55	N	2018-11-28 15:32:14	X	07:24:19	
+2019-01-09 22:54:44 main       INFO  EmployeeAttendanceTracking:274 - Do you want to save the query reslut? Press 'y' to save:
+2019-01-09 22:54:46 main       INFO  EmployeeAttendanceTracking:277 - user input: n
+2019-01-09 22:54:46 main       INFO  EmployeeAttendanceTracking:139 - Program ended
+2019-01-09 22:55:31 main       INFO  EmployeeAttendanceTracking:59 - user input: 3
+2019-01-09 22:55:36 main       INFO  EmployeeAttendanceTracking:103 - User input: 2018, 48, week
+2019-01-09 22:55:36 main       INFO  EmployeeAttendanceTracking:261 - Matched records:
+2019-01-09 22:55:36 main       INFO  EmployeeAttendanceTracking:271 - T R	ah345fgo8449	2018-11-28 09:27:31	N	2018-11-28 15:32:14	X	06:04:43	
+2019-01-09 22:55:36 main       INFO  EmployeeAttendanceTracking:271 - T R	ah345fgo8449	2018-11-28 08:07:55	N	2018-11-28 15:32:14	X	07:24:19	
+2019-01-09 22:55:36 main       INFO  EmployeeAttendanceTracking:274 - Do you want to save the query reslut? Press 'y' to save:
+2019-01-09 22:55:38 main       INFO  EmployeeAttendanceTracking:277 - user input: n
+2019-01-09 22:55:38 main       INFO  EmployeeAttendanceTracking:139 - Program ended
+2019-01-09 22:56:29 main       INFO  EmployeeAttendanceTracking:59 - user input: 3
+2019-01-09 22:56:37 main       INFO  EmployeeAttendanceTracking:103 - User input: 2018, 48, week
+2019-01-09 22:56:37 main       INFO  EmployeeAttendanceTracking:261 - Matched records:
+2019-01-09 22:56:37 main       INFO  EmployeeAttendanceTracking:271 - T R	ah345fgo8449	2018-11-28 09:27:31	N	2018-11-28 15:32:14	X	06:04:43	
+2019-01-09 22:56:37 main       INFO  EmployeeAttendanceTracking:271 - T R	ah345fgo8449	2018-11-28 08:07:55	N	2018-11-28 15:32:14	X	07:24:19	
+2019-01-09 22:56:37 main       INFO  EmployeeAttendanceTracking:274 - Do you want to save the query reslut? Press 'y' to save:
+2019-01-09 22:56:39 main       INFO  EmployeeAttendanceTracking:277 - user input: n
+2019-01-09 22:58:28 main       INFO  EmployeeAttendanceTracking:59 - user input: 3
+2019-01-09 22:58:34 main       INFO  EmployeeAttendanceTracking:103 - User input: 2018, 48, week
+2019-01-09 22:58:34 main       INFO  EmployeeAttendanceTracking:261 - Matched records:
+2019-01-09 22:58:34 main       INFO  EmployeeAttendanceTracking:271 - T R	ah345fgo8449	2018-11-28 09:27:31	N	2018-11-28 15:32:14	X	06:04:43	
+2019-01-09 22:58:34 main       INFO  EmployeeAttendanceTracking:271 - T R	ah345fgo8449	2018-11-28 08:07:55	N	2018-11-28 15:32:14	X	07:24:19	
+2019-01-09 22:58:34 main       INFO  EmployeeAttendanceTracking:274 - Do you want to save the query reslut? Press 'y' to save:
+2019-01-09 22:58:36 main       INFO  EmployeeAttendanceTracking:277 - user input: n
+2019-01-09 22:58:36 main       INFO  EmployeeAttendanceTracking:139 - Program ended
+2019-01-09 23:00:07 main       INFO  EmployeeAttendanceTracking:59 - user input: 3
+2019-01-09 23:00:12 main       INFO  EmployeeAttendanceTracking:103 - User input: 2018, 48, week
+2019-01-09 23:00:12 main       INFO  EmployeeAttendanceTracking:261 - Matched records:
+2019-01-09 23:00:12 main       INFO  EmployeeAttendanceTracking:271 - T R	ah345fgo8449	2018-11-28 09:27:31	N	2018-11-28 15:32:14	X	06:04:43	
+2019-01-09 23:00:12 main       INFO  EmployeeAttendanceTracking:271 - T R	ah345fgo8449	2018-11-28 08:07:55	N	2018-11-28 15:32:14	X	07:24:19	
+2019-01-09 23:00:12 main       INFO  EmployeeAttendanceTracking:274 - Do you want to save the query reslut? Press 'y' to save:
+2019-01-09 23:00:15 main       INFO  EmployeeAttendanceTracking:277 - user input: n
+2019-01-09 23:00:15 main       INFO  EmployeeAttendanceTracking:139 - Program ended
+2019-01-09 23:02:07 main       INFO  EmployeeAttendanceTracking:59 - user input: 3
+2019-01-09 23:02:12 main       INFO  EmployeeAttendanceTracking:103 - User input: 2018, 48, week
+2019-01-09 23:02:12 main       INFO  EmployeeAttendanceTracking:261 - Matched records:
+2019-01-09 23:02:12 main       INFO  EmployeeAttendanceTracking:271 - T R	ah345fgo8449	2018-11-28 09:27:31	N	2018-11-28 15:32:14	X	06:04:43	
+2019-01-09 23:02:12 main       INFO  EmployeeAttendanceTracking:271 - T R	ah345fgo8449	2018-11-28 08:07:55	N	2018-11-28 15:32:14	X	07:24:19	
+2019-01-09 23:02:12 main       INFO  EmployeeAttendanceTracking:274 - Do you want to save the query reslut? Press 'y' to save:
+2019-01-09 23:02:13 main       INFO  EmployeeAttendanceTracking:277 - user input: n
+2019-01-09 23:02:13 main       INFO  EmployeeAttendanceTracking:139 - Program ended
+2019-01-09 23:02:44 main       INFO  EmployeeAttendanceTracking:59 - user input: 3
+2019-01-09 23:02:49 main       INFO  EmployeeAttendanceTracking:103 - User input: 2018, 48, week
+2019-01-09 23:02:49 main       INFO  EmployeeAttendanceTracking:261 - Matched records:
+2019-01-09 23:02:49 main       INFO  EmployeeAttendanceTracking:271 - T R	ah345fgo8449	2018-11-28 09:27:31	N	2018-11-28 15:32:14	X	06:04:43	
+2019-01-09 23:02:49 main       INFO  EmployeeAttendanceTracking:271 - T R	ah345fgo8449	2018-11-28 08:07:55	N	2018-11-28 15:32:14	X	07:24:19	
+2019-01-09 23:02:49 main       INFO  EmployeeAttendanceTracking:274 - Do you want to save the query reslut? Press 'y' to save:
+2019-01-09 23:02:51 main       INFO  EmployeeAttendanceTracking:277 - user input: n
+2019-01-09 23:06:37 main       INFO  EmployeeAttendanceTracking:59 - user input: 3
+2019-01-09 23:06:44 main       INFO  EmployeeAttendanceTracking:103 - User input: 2018, 48, week
+2019-01-09 23:06:44 main       INFO  EmployeeAttendanceTracking:261 - Matched records:
+2019-01-09 23:06:44 main       INFO  EmployeeAttendanceTracking:271 - T R	ah345fgo8449	2018-11-28 09:27:31	N	2018-11-28 15:32:14	X	06:04:43	
+2019-01-09 23:06:44 main       INFO  EmployeeAttendanceTracking:271 - T R	ah345fgo8449	2018-11-28 08:07:55	N	2018-11-28 15:32:14	X	07:24:19	
+2019-01-09 23:06:44 main       INFO  EmployeeAttendanceTracking:274 - Do you want to save the query reslut? Press 'y' to save:
+2019-01-09 23:06:45 main       INFO  EmployeeAttendanceTracking:277 - user input: n
+2019-01-09 23:06:45 main       INFO  EmployeeAttendanceTracking:139 - Program ended
