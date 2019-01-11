@@ -51,9 +51,6 @@ public class EmployeeAttendanceTracking {
 			System.out.println("[1] Query the database and get the attendance for all employees for any day or month");
 			System.out.println("[2] Query the database and get the attendance for the month or a day for a particular employee");
 			System.out.println("[3] Query the database to get the list of employees along with the number of times they had less than 8 hours");
-			System.out.println("[4] Save the query result as a .CSV file");
-			System.out.println("[5] Upload the .CSV file to a server");
-			System.out.println("[6] Quit the program");
 			String input = sc.next();
 			menu_selection = Integer.parseInt(input);
 			logger.info("user input: " + menu_selection);
@@ -122,16 +119,6 @@ public class EmployeeAttendanceTracking {
 					logger.info("Wrong input format, please try again");
 				}
 				break;
-			case 4:
-				System.out.println(menu_selection);
-				break;
-			case 5:
-				System.out.println(menu_selection);
-				break;
-			case 6:
-				System.out.println(menu_selection);
-				logger.info("Program ended");
-				System.exit(-1);
 			default:
 				System.out.println("Invalid selection");
 				break;
@@ -271,7 +258,7 @@ public class EmployeeAttendanceTracking {
 				logger.info(single_row);
 				single_row = "";
 			}
-			logger.info("Do you want to save the query reslut? Press 'y' to save, any other key to skip save file");
+			logger.info("Save the query reslut? Press 'y' to save, any other key to skip.");
 			Scanner sc2 = new Scanner(System.in);
 			String save_input = sc2.nextLine();
 			logger.info("user input: " + save_input);
@@ -279,6 +266,13 @@ public class EmployeeAttendanceTracking {
 				pw.write(sb.toString());
 				logger.info("Query result saved as query_result.csv file");
 				pw.close();
+				logger.info("Upload query reslut? Press 'y' to save, any other key to skip.");
+				Scanner sc3 = new Scanner(System.in);
+				String upload_input = sc3.nextLine();
+				logger.info("user input: " + save_input);
+				if (upload_input.trim().toUpperCase().equals("Y")) {
+					
+				}
 			}
 			else {
 				//close input stream before deleting the csv file

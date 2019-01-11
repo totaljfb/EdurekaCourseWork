@@ -1325,3 +1325,55 @@ q
 2019-01-09 23:06:44 main       INFO  EmployeeAttendanceTracking:274 - Do you want to save the query reslut? Press 'y' to save:
 2019-01-09 23:06:45 main       INFO  EmployeeAttendanceTracking:277 - user input: n
 2019-01-09 23:06:45 main       INFO  EmployeeAttendanceTracking:139 - Program ended
+2019-01-10 23:17:51 main       ERROR Server:39 - Lost connection to host due to I/O error.
+2019-01-10 23:19:01 main       DEBUG Server:32 - Waiting for connection...
+2019-01-10 23:19:07 main       DEBUG Server:36 - Connected to Socket[addr=/127.0.0.1,port=50628,localport=2022]
+2019-01-10 23:19:07 main       DEBUG Server:32 - Waiting for connection...
+2019-01-10 23:19:28 Thread-0   INFO  RequestProcessingThread:33 - IOExection 
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.readLine(BufferedReader.java:324)
+	at java.io.BufferedReader.readLine(BufferedReader.java:389)
+	at module9.tcp.sockets.RequestProcessingThread.run(RequestProcessingThread.java:26)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-10 23:19:43 main       DEBUG Server:32 - Waiting for connection...
+2019-01-10 23:19:47 main       DEBUG Server:36 - Connected to Socket[addr=/127.0.0.1,port=50629,localport=2015]
+2019-01-10 23:19:47 main       DEBUG Server:32 - Waiting for connection...
+2019-01-10 23:20:00 Thread-0   INFO  RequestProcessingThread:33 - IOExection 
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.readLine(BufferedReader.java:324)
+	at java.io.BufferedReader.readLine(BufferedReader.java:389)
+	at module9.tcp.sockets.RequestProcessingThread.run(RequestProcessingThread.java:26)
+	at java.lang.Thread.run(Thread.java:748)
+2019-01-10 23:20:37 main       ERROR Client:57 - Lost connection to host due to I/O error.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:211)
+	at module9.tcp.sockets.Client.main(Client.java:36)
+2019-01-10 23:20:55 main       DEBUG Server:32 - Waiting for connection...
+2019-01-10 23:21:03 main       DEBUG Server:36 - Connected to Socket[addr=/127.0.0.1,port=50631,localport=2015]
+2019-01-10 23:21:03 main       DEBUG Server:32 - Waiting for connection...
+2019-01-10 23:21:03 main       DEBUG Client:39 - Connected to host: localhost:2015
+2019-01-10 23:21:19 Thread-0   DEBUG RequestProcessingThread:28 - *** Echoing client -> test
